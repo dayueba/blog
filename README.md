@@ -1,3 +1,6 @@
+# NotOnlyJava
+不仅仅是Java基础知识
+
 整理和总结网上一些写的好的文章，并进行一些补充和修改。
 
 ## 目录
@@ -184,6 +187,6 @@ Markdown格式参考：[Github Markdown格式](https://guides.github.com/feature
 
 搭建类似文档类型网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 
 
-### 作者介绍
+### 关于我
 
 一个起步较晚，起点较低，但是一直在努力的程序员。

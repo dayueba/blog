@@ -45,8 +45,9 @@
 - [学习资源](#学习资源)
   - [学习方法](#学习方法)
   - [书籍](#书籍)
+  - [优质博客](#优质博客)
   - [实战项目](#实战项目)
-  - [视频课程](#视频课程)
+  - [优质课程](#优质课程)
 - [待办](#待办)
 - [说明](说明)
 
@@ -289,10 +290,24 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 ### 优质博客
 
 - [JavaGuide](https://snailclimb.gitee.io/javaguide/#/?id=基础) 也是看了这个项目才决定自己整理一个
+
 - [mall-learning](http://www.macrozheng.com/#/) 不仅有实战，也有理论
+
+- [SpringAll](https://github.com/wuyouzhuguli/SpringAll) SpringBoot的教程
+
 - [hello-algorithm](https://github.com/geekxh/hello-algorithm) 算法
+
 - [bestJavaer](https://github.com/crisxuan/bestJavaer) 人气不高，文章计算机基础 理论知识偏多
+
 - [interviewGuide](https://github.com/NotFound9/interviewGuide) 后端技术总结
+
+- [Java工程师技术指南](https://github.com/h2pl/Java-Tutorial) 
+
+- [Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer) 现在内容还挺少的
+
+- [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) 进阶知识
+
+  
 
 ### 实战项目
 

@@ -42,6 +42,7 @@
 - [网络](#网络)
 - [操作系统](#操作系统)
   - [Linux](#Linux)
+- [面试指南](#面试指南)
 - [学习资源](#学习资源)
   - [学习方法](#学习方法)
   - [书籍](#书籍)
@@ -49,7 +50,7 @@
   - [实战项目](#实战项目)
   - [优质课程](#优质课程)
 - [待办](#待办)
-- [说明](说明)
+- [说明](#说明)
 
 ## Java
 
@@ -281,7 +282,18 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 3. [完全使用GNU_Linux学习](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/完全使用GNU_Linux学习)
 4. [Linux 性能分析工具合集](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/Linux性能分析工具合集)
 
+## 面试指南
+
+1. [简历编写](docs/essential-content-for-interview/简历编写.md)
+2. [个人面试经验](docs/essential-content-for-interview/interview.md)
+
+**一些面试题**
+
+- [【备战面试6】应届生面试最爱问的几道 Java 基础问题](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/PreparingForInterview/应届生面试最爱问的几道Java基础问题)
+
 ## 学习资源
+
+[Java学习路线](#)
 
 ### 学习方法
 
@@ -292,6 +304,8 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 - [JavaGuide](https://snailclimb.gitee.io/javaguide/#/?id=基础) 也是看了这个项目才决定自己整理一个
 
 - [mall-learning](http://www.macrozheng.com/#/) 不仅有实战，也有理论
+
+- [CS-Notes](https://github.com/CyC2018/CS-Notes)
 
 - [SpringAll](https://github.com/wuyouzhuguli/SpringAll) SpringBoot的教程
 

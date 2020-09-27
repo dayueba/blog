@@ -26,13 +26,17 @@
   - [Elasticsearch](#Elasticsearch)
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
+  - [Kafka](#Kafka)
 - [系统设计](#系统设计)
   - [必备知识](#必备知识)
-  - [认证授权(JWT、SSO)](#认证授权)
+  - [认证授权](#认证授权)
   - [大型网站架构](#大型网站架构)
     - [性能测试](#性能测试)
     - [高并发](#高并发)
     - [高可用](#高可用)
+- [分布式](#分布式)
+  - [RPC](#RPC)
+  - [分布式限流](#分布式限流)
 - [脚本语言](#脚本语言)
   - [Python](#Python)
   - [JavaScript](#JavaScript)
@@ -167,6 +171,10 @@
 - [常用注解](https://snailclimb.gitee.io/javaguide/#/./docs/system-design/framework/spring/spring-annotations)
 - [SpringBoot统一日志记录]()
 - [SpringBoot统一错误处理]()
+- [实战-SpringBoot使用Redis进 行API防刷限流]()
+
+### SpringSecurity
+todo
 
 ### MyBatis
 
@@ -205,7 +213,11 @@
 - [RabbitMQ 入门](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/rabbitmq)
 
 
+### Kafka
 
+- [Kafka入门+SpringBoot整合Kafka系列](https://github.com/Snailclimb/springboot-kafka)
+- [Kafka常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/kafka-inverview)
+- [【加餐】Kafka入门看这一篇就够了](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/Kafka%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86)
 
 
 ## 系统设计
@@ -229,9 +241,12 @@
 
 SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中一个就有权访问与其相关的其他系统。举个例子我们在登陆了京东金融之后，我们同时也成功登陆京东的京东超市、京东家电等子系统。相关阅读：**[SSO 单点登录看这篇就够了！](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/sso)**
 
+**OAuth2**
+todo
+
 ### 大型网站架构
 
-- [8 张图读懂大型网站技术架构](https://snailclimb.gitee.io/javaguide/#/docs/system-design/website-architecture/8 张图读懂大型网站技术架构)
+- [8 张图读懂大型网站技术架构](https://www.yuque.com/docs/share/a8a6e551-5a3f-4348-8da8-7c8a1629837c?#%20《8张图读懂大型网站技术架构》)
 
 - [关于大型网站系统架构你不得不懂的10个问题](https://snailclimb.gitee.io/javaguide/#/docs/system-design/website-architecture/关于大型网站系统架构你不得不懂的10个问题)
 
@@ -243,9 +258,17 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 高可用描述的是一个系统在大部分时间都是可用的，可以为我们提供服务的。高可用代表系统即使在发生硬件故障或者系统升级的时候，服务仍然是可用的 。相关阅读： **《[如何设计一个高可用系统？要考虑哪些地方？](https://snailclimb.gitee.io/javaguide/#/docs/system-design/website-architecture/如何设计一个高可用系统？要考虑哪些地方？)》** 。
 
+## 分布式
 
+### RPC
 
+让调用远程服务调用像调用本地方法那样简单。
 
+- [服务之间的调用为啥不直接用 HTTP 而用 RPC？](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/why-use-rpc)
+
+### 分布式限流
+
+1. [限流算法有哪些?](https://snailclimb.gitee.io/javaguide/#/docs/system-design/micro-service/limit-request)
 
 ## 脚本语言
 
@@ -253,13 +276,14 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 ### JavaScript
 
-- [javascript学习](http://lovepenny.gitee.io/javascript/#/)
+- [我的另一个javascript学习仓库](http://lovepenny.gitee.io/javascript/#/)
 
 ## 必会工具
 
 ### Git
 
 - [Git入门](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git)
+- [分支管理-Git flow](http://git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)
 
 ### Docker
 
@@ -338,7 +362,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 资源来源自网络。主要参考项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
 
-只会收集目前正在学习内容的相关资源
+只会收集和整理目前正在学习内容的相关资源
 
 Markdown格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)
 

@@ -174,7 +174,7 @@
 - [实战-SpringBoot使用Redis进 行API防刷限流]()
 
 ### SpringSecurity
-todo
+**todo**
 
 ### MyBatis
 
@@ -273,6 +273,7 @@ todo
 ## 脚本语言
 
 ### Python
+**todo**
 
 ### JavaScript
 
@@ -326,23 +327,14 @@ todo
 ### 优质博客
 
 - [JavaGuide](https://snailclimb.gitee.io/javaguide/#/?id=基础) 也是看了这个项目才决定自己整理一个
-
 - [mall-learning](http://www.macrozheng.com/#/) 不仅有实战，也有理论
-
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
-
 - [SpringAll](https://github.com/wuyouzhuguli/SpringAll) SpringBoot的教程
-
 - [hello-algorithm](https://github.com/geekxh/hello-algorithm) 算法
-
 - [bestJavaer](https://github.com/crisxuan/bestJavaer) 人气不高，文章计算机基础 理论知识偏多
-
 - [interviewGuide](https://github.com/NotFound9/interviewGuide) 后端技术总结
-
 - [Java工程师技术指南](https://github.com/h2pl/Java-Tutorial) 
-
 - [Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer) 现在内容还挺少的
-
 - [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) 进阶知识
 
   

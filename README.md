@@ -117,6 +117,8 @@
 
 ### MySQL
 
+- [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
+
 **总结：**
 
 1. **[【推荐】MySQL/数据库 知识点总结](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL)**

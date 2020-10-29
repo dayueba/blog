@@ -63,9 +63,7 @@
 **基础知识**
 
 - **[Java 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/java/Java基础知识)**
-
 - **[Java 基础知识疑难点/易错点](https://snailclimb.gitee.io/javaguide/#/docs/java/Java疑难点)**
-
 - [【选看】J2EE 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/java/J2EE基础知识)
 
 **重要知识点**
@@ -99,7 +97,6 @@
 
 - [并发容器总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/并发容器总结)
 - 线程池：[Java线程池学习总结](https://snailclimb.gitee.io/javaguide/#/./docs/java/Multithread/java线程池学习总结)，[拿来即用的线程池最佳实践](https://snailclimb.gitee.io/javaguide/#/./docs/java/Multithread/best-practice-of-threadpool)
-
 - [乐观锁与悲观锁](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/面试必备之乐观锁与悲观锁)
 - [万字图文深度解析 ThreadLocal](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/ThreadLocal)
 - [JUC 中的 Atomic 原子类总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/Atomic)
@@ -108,7 +105,7 @@
 ### 其它
 
 1. I/O: [BIO,NIO,AIO 总结](https://snailclimb.gitee.io/javaguide/#/docs/java/BIO-NIO-AIO)
-2. Java8：[Java 8 新特性总结](https://snailclimb.gitee.io/javaguide/#/docs/java/What's New in JDK8/Java8Tutorial)，[Java 8 学习资源推荐](https://snailclimb.gitee.io/javaguide/#/docs/java/What's New in JDK8/Java8教程推荐)，[Java8 forEach 指南](https://snailclimb.gitee.io/javaguide/#/docs/java/What's New in JDK8/Java8foreach指南)
+2. Java8：[Java 8 新特性总结](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8Tutorial)，[Java 8 学习资源推荐](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8教程推荐)，[Java8 forEach 指南](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8foreach指南)
 3. Java9-java14：[一文带你看遍JDK9~14的重要新特性！](https://snailclimb.gitee.io/javaguide/#/./docs/java/jdk-new-features/new-features-from-jdk8-to-jdk14)
 4. Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Java编程规范)**、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](https://snailclimb.gitee.io/javaguide/#/docs/java/java-naming-conventions)
 5. 设计模式：[设计模式系列文章](https://snailclimb.gitee.io/javaguide/#/docs/system-design/设计模式)
@@ -116,8 +113,11 @@
 ## 数据库
 
 ### MySQL
+mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
 
 - [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
+- [MySQL执行效率分析](docs/database/MySQL/执行效率分析.md)
+- [MySQL设计规范](docs/database/MySQL/设计规范.md)
 
 **总结：**
 
@@ -130,7 +130,7 @@
 
 **面试必问：**
 
-- 索引：[数据库索引总结](docs/database/MySQL/index.md)
+- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引失效的几种情况](docs/database/MySQL/索引失效的几种情况.md)
 - 锁：
 - 存储引擎：
 - 事务：[事务隔离级别(图文详解)](https://snailclimb.gitee.io/javaguide/#/docs/database/事务隔离级别(图文详解))
@@ -144,6 +144,8 @@
 
 - [关于缓存的一些重要概念(Redis前置菜)](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/some-concepts-of-caching)
 - [Redis 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-all)
+- [Redis 缓存击穿，穿透，雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
+- [Redis面试题](docs/database/Redis/面试题.md)
 - Redis系列文章合集：
   1. 数据结构和算法：[5种基本数据结构](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构)，[跳跃表](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(2)——跳跃表)，[神奇的HyperLoglog解决统计问题](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题)，[亿级数据过滤和布隆过滤器](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器)，[GeoHash查找附近的人](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人)
   2. [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)

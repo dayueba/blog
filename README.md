@@ -127,13 +127,15 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 4. [MySQL高性能优化规范建议](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL高性能优化规范建议)
 5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
 6. **[关于数据库中如何存储时间的一点思考](https://snailclimb.gitee.io/javaguide/#/docs/database/关于数据库存储时间的一点思考)**
+7. [聊聊主键](docs/database/MySQL/聊聊主键.md)
 
 **面试必问：**
 
-- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引失效的几种情况](docs/database/MySQL/索引失效的几种情况.md)
-- 锁：
+- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引失效的几种情况](docs/database/MySQL/索引失效的几种情况.md), [哪些情况要加索引](docs/database/MySQL/哪些情况要加索引.md)
+- 锁：[全局锁表锁以及行锁](docs/database/MySQL/全局锁表锁以及行锁.md)
 - 存储引擎：
 - 事务：[事务隔离级别(图文详解)](https://snailclimb.gitee.io/javaguide/#/docs/database/事务隔离级别(图文详解))
+- 优化：[优化count()](docs/database/MySQL/优化count.md),[优化数据导入](docs/database/MySQL/优化数据导入.md),[优化分页查询](docs/database/MySQL/优化分页查询.md)
 
 **提高**
 
@@ -231,6 +233,9 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 **[RestFul API 简明教程](https://snailclimb.gitee.io/javaguide/#/docs/system-design/restful-api)**
 
 **[命名](https://snailclimb.gitee.io/javaguide/#/docs/system-design/naming)**
+
+### 攻击技术
+- [常见的web攻击技术](docs/system_design/攻击技术.md)
 
 ### 认证授权
 

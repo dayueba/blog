@@ -27,6 +27,7 @@
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
   - [Kafka](#Kafka)
+- [设计模式](#设计模式)
 - [系统设计](#系统设计)
   - [必备知识](#必备知识)
   - [认证授权](#认证授权)
@@ -115,14 +116,12 @@
 ### MySQL
 mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
 
+- [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B)
 - [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
-- [MySQL执行效率分析](docs/database/MySQL/执行效率分析.md)
-- [MySQL设计规范](docs/database/MySQL/设计规范.md)
 
 **总结：**
 
 1. **[【推荐】MySQL/数据库 知识点总结](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL)**
-2. **[阿里巴巴开发手册数据库部分的一些最佳实践](https://snailclimb.gitee.io/javaguide/#/docs/database/阿里巴巴开发手册数据库部分的一些最佳实践)**
 3. **[一千行MySQL学习笔记](https://snailclimb.gitee.io/javaguide/#/docs/database/一千行MySQL命令)**
 4. [MySQL高性能优化规范建议](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL高性能优化规范建议)
 5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
@@ -131,20 +130,12 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **面试必问：**
 
-- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引失效的几种情况](docs/database/MySQL/索引失效的几种情况.md), [哪些情况要加索引](docs/database/MySQL/哪些情况要加索引.md)
-- 锁：[全局锁表锁以及行锁](docs/database/MySQL/全局锁表锁以及行锁.md)
-- 存储引擎：
-- 事务：[事务隔离级别(图文详解)](https://snailclimb.gitee.io/javaguide/#/docs/database/事务隔离级别(图文详解))
-- 优化：[优化count()](docs/database/MySQL/优化count.md),[优化数据导入](docs/database/MySQL/优化数据导入.md),[优化分页查询](docs/database/MySQL/优化分页查询.md)
-
-**提高**
-
-- 分库分表
-- 读写分离
+- 索引：[数据库索引总结](docs/database/MySQL/index.md)
 
 ### Redis
 
 - [关于缓存的一些重要概念(Redis前置菜)](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/some-concepts-of-caching)
+- [redis常见知识点](docs/database/Redis/redis.md)
 - [Redis 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-all)
 - [Redis 缓存击穿，穿透，雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [Redis面试题](docs/database/Redis/面试题.md)
@@ -206,7 +197,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 全文搜索引擎
 
-### Elascticsearch
+### Elasticsearch
 
 
 
@@ -225,6 +216,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [Kafka常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/kafka-inverview)
 - [【加餐】Kafka入门看这一篇就够了](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/Kafka%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86)
 
+## 设计模式
+- [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
 
 ## 系统设计
 
@@ -282,7 +275,8 @@ todo
 ## 脚本语言
 
 ### Python
-**todo**
+
+- [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B)
 
 ### JavaScript
 
@@ -294,11 +288,13 @@ todo
 
 - [Git入门](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git)
 - [分支管理-Git flow](http://git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)
+- [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B)
 
 ### Docker
 
 - [Docker 基本概念解读](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker)
 - [一文搞懂 Docker 镜像的常用操作！](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
+- [我的Docker笔记合集](https://www.yuque.com/books/share/de30a6ba-5e79-4ec6-9748-ce42a56c2534?#%20%E3%80%8ADocker%E3%80%8B)
 
 ## 网络
 
@@ -346,6 +342,7 @@ todo
 - [Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer) 现在内容还挺少的
 - [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) 进阶知识
 
+- [我star的所有仓库](https://github.com/barbecue-pan?tab=stars)
   
 
 ### 实战项目
@@ -368,6 +365,8 @@ todo
 Markdown格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)
 
 搭建类似文档类型网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 
+
+推荐另一个写作网站：[语雀](https://www.yuque.com/)
 
 ### 关于我
 

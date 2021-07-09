@@ -75,7 +75,7 @@
 
 ## 你还有什么想问我的
 
-> 推荐阅读：**[【备战面试5】如果面试官问你“你有什么问题问我吗？”时，你该如何回答](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/PreparingForInterview/面试官-你有什么问题要问我)**
+> 推荐阅读：[如果面试官问你“你有什么问题问我吗？”时，你该如何回答](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/PreparingForInterview/面试官-你有什么问题要问我)
 
 就技术面试而言，回答这个问题的时候，只要你不是触碰到你所面试的公司的雷区，那么我觉得这对你能不能拿到最终offer来说影响确实是不大的。我说这些并不代表你就可以直接对面试官说：“我没问题了。” 面试本身就是一个双向选择的过程，你对这个问题的回答也会侧面反映出你对这次面试的上心程度，你的问题是否有价值，也影响了你最终的选择与公司是否选择你。
 
@@ -104,8 +104,3 @@
 - 简历上写的都要会，问你的时候至少有东西可以扯
 - 基础部分不能忘
 - 书面offer才算offer
-
-
-
-
-

@@ -1,24 +1,18 @@
-# NotOnlyJava
-不仅仅是Java基础知识
+# blog
+这是我的个人主页
 
-整理和总结网上一些写的好的文章，并进行一些补充和修改。
+主要记录自己写的博客以及整理和总结网上一些写的好的文章，并进行一些补充和修改。
 
 ## 目录
-
-- [Java](#Java)
-  - [基础](#基础)
-  - [容器](#容器)
-  - [并发](#并发)
-  - jvm
-  - [其它](#其它)
+- [学习方法](#学习方法)
+- [编程语言](#编程语言)
+  - [Python](#Python)
+  - [JavaScript](#JavaScript)
+  - [Go](#Go)
 - [数据库](#数据库)
   - [MySQL](#MySQL)
   - [Redis](#Redis)
   - [MongoDB](#MongoDB)
-- [框架](#框架)
-  - [Spring](#Spring)
-  - [SpringBoot](#SpringBoot)
-  - [MyBatis](#MyBatis)
 - [数据结构与算法](#数据结构和算法)
   - [数据结构](#数据结构)
   - [算法](#算法)
@@ -38,15 +32,13 @@
 - [分布式](#分布式)
   - [RPC](#RPC)
   - [分布式限流](#分布式限流)
-- [脚本语言](#脚本语言)
-  - [Python](#Python)
-  - [JavaScript](#JavaScript)
 - [必会工具](#必会工具)
   - [Git](#Git)
   - [Docker](#Docker)
 - [网络](#网络)
 - [操作系统](#操作系统)
   - [Linux](#Linux)
+- [实战文章](#实战文章)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
   - [学习方法](#学习方法)
@@ -57,59 +49,16 @@
 - [待办](#待办)
 - [说明](#说明)
 
-## Java
+## 学习方法
+## 编程语言
 
-### 基础
+### Python
 
-**基础知识**
+- [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B)
 
-- **[Java 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/java/Java基础知识)**
-- **[Java 基础知识疑难点/易错点](https://snailclimb.gitee.io/javaguide/#/docs/java/Java疑难点)**
-- [【选看】J2EE 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/java/J2EE基础知识)
+### JavaScript
 
-**重要知识点**
-
-- [枚举](https://snailclimb.gitee.io/javaguide/#/docs/java/basic/用好Java中的枚举真的没有那么简单)（很重要的一个数据结构，用好枚举真的没有那么简单！）
-- [Java 常见关键字总结：final、static、this、super!](https://snailclimb.gitee.io/javaguide/#/docs/java/basic/final,static,this,super)
-- [什么是反射机制?反射机制的应用场景有哪些?](https://snailclimb.gitee.io/javaguide/#/docs/java/basic/reflection)
-- 注解
-- [代理模式详解：静态代理+JDK/CGLIB 动态代理实战（动态代理和静态代理的区别？JDK动态代理 和 CGLIB 动态代理的区别？）](https://snailclimb.gitee.io/javaguide/#/docs/java/basic/java-proxy)
-
-**其它**
-
-- [JAD反编译](https://snailclimb.gitee.io/javaguide/#/docs/java/JAD反编译tricks)
-- [手把手教你定位常见Java性能问题](https://snailclimb.gitee.io/javaguide/#/./docs/java/手把手教你定位常见Java性能问题)
-
-### 容器
-
-- **[Java容器常见面试题/知识点总结](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/Java集合框架常见面试题)**
-- 源码分析：[ArrayList 源码](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/ArrayList)，[LinkedList 源码](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/LinkedList)，[HashMap(JDK1.8)源码](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/HashMap)，[ConcurrentHashMap源码](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/ConcurrentHashMap)
-
-### 并发
-
-- 多线程学习指南
-
-**面试题总结**
-
-- **[Java 并发基础常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary)**
-- **[Java 并发进阶常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions)**
-
-**面试常问知识点**
-
-- [并发容器总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/并发容器总结)
-- 线程池：[Java线程池学习总结](https://snailclimb.gitee.io/javaguide/#/./docs/java/Multithread/java线程池学习总结)，[拿来即用的线程池最佳实践](https://snailclimb.gitee.io/javaguide/#/./docs/java/Multithread/best-practice-of-threadpool)
-- [乐观锁与悲观锁](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/面试必备之乐观锁与悲观锁)
-- [万字图文深度解析 ThreadLocal](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/ThreadLocal)
-- [JUC 中的 Atomic 原子类总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/Atomic)
-- [AQS 原理以及 AQS 同步组件总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Multithread/AQS)
-
-### 其它
-
-1. I/O: [BIO,NIO,AIO 总结](https://snailclimb.gitee.io/javaguide/#/docs/java/BIO-NIO-AIO)
-2. Java8：[Java 8 新特性总结](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8Tutorial)，[Java 8 学习资源推荐](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8教程推荐)，[Java8 forEach 指南](https://snailclimb.gitee.io/javaguide/#/docs/java/What's%20New%20in%20JDK8/Java8foreach指南)
-3. Java9-java14：[一文带你看遍JDK9~14的重要新特性！](https://snailclimb.gitee.io/javaguide/#/./docs/java/jdk-new-features/new-features-from-jdk8-to-jdk14)
-4. Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](https://snailclimb.gitee.io/javaguide/#/docs/java/Java编程规范)**、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](https://snailclimb.gitee.io/javaguide/#/docs/java/java-naming-conventions)
-5. 设计模式：[设计模式系列文章](https://snailclimb.gitee.io/javaguide/#/docs/system-design/设计模式)
+### Go
 
 ## 数据库
 
@@ -125,7 +74,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 3. **[一千行MySQL学习笔记](https://snailclimb.gitee.io/javaguide/#/docs/database/一千行MySQL命令)**
 4. [MySQL高性能优化规范建议](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL高性能优化规范建议)
 5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
-6. **[关于数据库中如何存储时间的一点思考](https://snailclimb.gitee.io/javaguide/#/docs/database/关于数据库存储时间的一点思考)**
+6. **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
 7. [聊聊主键](docs/database/MySQL/聊聊主键.md)
 
 **面试必问：**
@@ -134,7 +83,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Redis
 
+- [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
+
 - [关于缓存的一些重要概念(Redis前置菜)](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/some-concepts-of-caching)
+- [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 - [redis常见知识点](docs/database/Redis/redis.md)
 - [Redis 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-all)
 - [Redis 缓存击穿，穿透，雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
@@ -152,31 +104,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [快速入门](http://www.macrozheng.com/#/reference/mongodb_start)
 
-## 框架
-
-### Spring
-
-- [Spring中都用到了那些设计模式?](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/Spring-Design-Patterns)
-- [SpringMVC 工作原理详解](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringMVC-Principle)
-- [Spring中 Bean 的作用域与生命周期](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringBean)
-- **[Spring事务总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/spring-transaction)**
-- **[Spring 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions)**
-- [Spring IoC 和 AOP详解](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486938&idx=1&sn=c99ef0233f39a5ffc1b98c81e02dfcd4&chksm=cea24211f9d5cb07fa901183ba4d96187820713a72387788408040822ffb2ed575d28e953ce7&token=1666190828&lang=zh_CN#rd)
-
-### SpringBoot
-
-- [常用注解](https://snailclimb.gitee.io/javaguide/#/./docs/system-design/framework/spring/spring-annotations)
-- [SpringBoot统一日志记录]()
-- [SpringBoot统一错误处理]()
-- [实战-SpringBoot使用Redis进 行API防刷限流]()
-
-### SpringSecurity
-**todo**
-
-### MyBatis
-
-- [MyBatis常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/mybatis/mybatis-interview)
-
 ## 数据结构与算法
 
 ### 数据结构
@@ -187,19 +114,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### 算法
 
-- [硬核的算法学习书籍+资源推荐](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/算法学习资源推荐)
 - 常见算法问题总结：
   - [几道常见的字符串算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的子符串算法题)
   - [几道常见的链表算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的链表算法题)
-  - [剑指offer部分编程题](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/剑指offer部分编程题)
-  - [公司真题](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/公司真题)
-  - [回溯算法经典案例之N皇后问题](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/Backtracking-NQueens)
 
 ## 全文搜索引擎
 
 ### Elasticsearch
-
-
 
 ## 消息队列
 
@@ -272,15 +193,7 @@ todo
 
 1. [限流算法有哪些?](https://snailclimb.gitee.io/javaguide/#/docs/system-design/micro-service/limit-request)
 
-## 脚本语言
 
-### Python
-
-- [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B)
-
-### JavaScript
-
-- [我的另一个javascript学习仓库](http://lovepenny.gitee.io/javascript/#/)
 
 ## 必会工具
 
@@ -312,49 +225,24 @@ todo
 3. [完全使用GNU_Linux学习](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/完全使用GNU_Linux学习)
 4. [Linux 性能分析工具合集](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/Linux性能分析工具合集)
 
+## 实战文章
+- [如何设计一个秒杀系统](docs/mall/miaosha.md)
+- [电商存储中的24个高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
+
 ## 面试指南
 
 1. [简历编写](docs/essential-content-for-interview/简历编写.md)
 2. [个人面试经验](docs/essential-content-for-interview/interview.md)
 
-**一些面试题**
-
-- [【备战面试6】应届生面试最爱问的几道 Java 基础问题](https://snailclimb.gitee.io/javaguide/#/docs/essential-content-for-interview/PreparingForInterview/应届生面试最爱问的几道Java基础问题)
-
 ## 学习资源
-
-[Java学习路线](#)
-
-### 学习方法
 
 ### 书籍
 
 ### 优质博客
 
-- [JavaGuide](https://snailclimb.gitee.io/javaguide/#/?id=基础) 也是看了这个项目才决定自己整理一个
-- [mall-learning](http://www.macrozheng.com/#/) 不仅有实战，也有理论
-- [CS-Notes](https://github.com/CyC2018/CS-Notes)
-- [SpringAll](https://github.com/wuyouzhuguli/SpringAll) SpringBoot的教程
-- [hello-algorithm](https://github.com/geekxh/hello-algorithm) 算法
-- [bestJavaer](https://github.com/crisxuan/bestJavaer) 人气不高，文章计算机基础 理论知识偏多
-- [interviewGuide](https://github.com/NotFound9/interviewGuide) 后端技术总结
-- [Java工程师技术指南](https://github.com/h2pl/Java-Tutorial) 
-- [Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer) 现在内容还挺少的
-- [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) 进阶知识
-
-- [我star的所有仓库](https://github.com/barbecue-pan?tab=stars)
-  
-
-### 实战项目
-
-### 视频课程
-
-
+- [我star的所有仓库](https://github.com/dayueba?tab=stars)
 
 ## 待办
-
-- jvm相关
-- 偏向业务的文章
 
 ## 说明
 
@@ -371,3 +259,5 @@ Markdown格式参考：[Github Markdown格式](https://guides.github.com/feature
 ### 关于我
 
 一个起步较晚，起点较低，但是一直在努力的程序员。
+
+目标：Go+Node开发工程师

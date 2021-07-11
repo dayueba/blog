@@ -1,7 +1,7 @@
 # blog
-这是我的个人主页
+这是我的个人博客主页
 
-主要记录自己写的博客以及整理和总结网上一些写的好的文章，并进行一些补充和修改。
+记录自己写的博客以及推荐一些学习资料
 
 ## 目录
 - [学习方法](#学习方法)
@@ -65,8 +65,10 @@
 ### MySQL
 mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
 
+- [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
 - [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B)
 - [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
+- [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
 
 **总结：**
 
@@ -84,7 +86,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### Redis
 
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
-
 - [关于缓存的一些重要概念(Redis前置菜)](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/some-concepts-of-caching)
 - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 - [redis常见知识点](docs/database/Redis/redis.md)
@@ -146,8 +147,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **[RestFul API 简明教程](https://snailclimb.gitee.io/javaguide/#/docs/system-design/restful-api)**
 
-**[命名](https://snailclimb.gitee.io/javaguide/#/docs/system-design/naming)**
-
 ### 攻击技术
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
 
@@ -158,13 +157,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 **jwt**
 
 - **[JWT 优缺点分析以及常见问题解决方案](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/JWT-advantages-and-disadvantages)**
-- **[适合初学者入门 Spring Security With JWT 的 Demo](https://github.com/Snailclimb/spring-security-jwt-guide)**
 
 **SSO(单点登录)**
 
 SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中一个就有权访问与其相关的其他系统。举个例子我们在登陆了京东金融之后，我们同时也成功登陆京东的京东超市、京东家电等子系统。相关阅读：**[SSO 单点登录看这篇就够了！](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/sso)**
 
 **OAuth2**
+
 todo
 
 ### 大型网站架构
@@ -236,12 +235,8 @@ todo
 
 ## 学习资源
 
-### 书籍
-
-### 优质博客
-
 - [我star的所有仓库](https://github.com/dayueba?tab=stars)
-
+- [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
 ## 待办
 
 ## 说明
@@ -259,5 +254,3 @@ Markdown格式参考：[Github Markdown格式](https://guides.github.com/feature
 ### 关于我
 
 一个起步较晚，起点较低，但是一直在努力的程序员。
-
-目标：Go+Node开发工程师

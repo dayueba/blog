@@ -50,6 +50,9 @@
 - [说明](#说明)
 
 ## 学习方法
+
+- [总结的一些学习方法以及一些好的习惯](https://xjip3se76o.feishu.cn/mindnotes/bmncniLbhid2PubMtdOEIwon2Jc)
+
 ## 编程语言
 
 ### Python

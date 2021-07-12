@@ -12,15 +12,16 @@
 - [数据库](#数据库)
   - [MySQL](#MySQL)
   - [Redis](#Redis)
-  - [MongoDB](#MongoDB)
-- [数据结构与算法](#数据结构和算法)
-  - [数据结构](#数据结构)
-  - [算法](#算法)
-- [全文搜索引擎](#全文搜索引擎)
   - [Elasticsearch](#Elasticsearch)
+  - [MongoDB](#MongoDB)
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
   - [Kafka](#Kafka)
+- [计算机基础](#计算机基础)
+  - [数据结构](#数据结构)
+  - [算法](#算法)
+  - [网络](#网络)
+  - [操作系统](#操作系统)
 - [设计模式](#设计模式)
 - [系统设计](#系统设计)
   - [必备知识](#必备知识)
@@ -35,9 +36,6 @@
 - [必会工具](#必会工具)
   - [Git](#Git)
   - [Docker](#Docker)
-- [网络](#网络)
-- [操作系统](#操作系统)
-  - [Linux](#Linux)
 - [实战文章](#实战文章)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
@@ -102,29 +100,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
   4. [史上最强【集群】入门实践教程](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程)
   5. [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
 
+### Elasticsearch
+
 ### MongoDB
 
 **基础知识：**
 
 - [快速入门](http://www.macrozheng.com/#/reference/mongodb_start)
-
-## 数据结构与算法
-
-### 数据结构
-
-- [红黑树基础]()
-- [不了解布隆过滤器？一文给你整的明明白白！](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/data-structure/bloom-filter)
-- [数据结构知识学习与面试](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/数据结构)
-
-### 算法
-
-- 常见算法问题总结：
-  - [几道常见的字符串算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的子符串算法题)
-  - [几道常见的链表算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的链表算法题)
-
-## 全文搜索引擎
-
-### Elasticsearch
 
 ## 消息队列
 
@@ -140,6 +122,34 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [Kafka入门+SpringBoot整合Kafka系列](https://github.com/Snailclimb/springboot-kafka)
 - [Kafka常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/kafka-inverview)
 - [【加餐】Kafka入门看这一篇就够了](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/Kafka%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86)
+
+## 计算机基础
+
+### 数据结构
+
+- [红黑树基础]()
+- [不了解布隆过滤器？一文给你整的明明白白！](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/data-structure/bloom-filter)
+- [数据结构知识学习与面试](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/数据结构)
+
+### 算法
+
+- 常见算法问题总结：
+  - [几道常见的字符串算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的子符串算法题)
+  - [几道常见的链表算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的链表算法题)
+
+### 网络
+
+1. [计算机网络常见面试题](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络)
+2. [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/干货：计算机网络知识总结)
+
+### 操作系统
+
+[最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
+
+#### Linux
+
+1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux)
+
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
@@ -211,22 +221,6 @@ todo
 - [一文搞懂 Docker 镜像的常用操作！](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
 - [我的Docker笔记合集](https://www.yuque.com/books/share/de30a6ba-5e79-4ec6-9748-ce42a56c2534?#%20%E3%80%8ADocker%E3%80%8B)
 
-## 网络
-
-1. [计算机网络常见面试题](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络)
-2. [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/干货：计算机网络知识总结)
-
-## 操作系统
-
-[最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
-
-### Linux
-
-1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux)
-2. [Shell 编程入门](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/Shell)
-3. [完全使用GNU_Linux学习](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/完全使用GNU_Linux学习)
-4. [Linux 性能分析工具合集](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/Linux性能分析工具合集)
-
 ## 实战文章
 - [如何设计一个秒杀系统](docs/mall/miaosha.md)
 - [电商存储中的24个高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
@@ -240,20 +234,17 @@ todo
 
 - [我star的所有仓库](https://github.com/dayueba?tab=stars)
 - [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
+
 ## 待办
 
 ## 说明
 
-资源来源自网络。主要参考项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
-
-只会收集和整理目前正在学习内容的相关资源
-
-Markdown格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)
+想法来源于项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
 
 搭建类似文档类型网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 
 
-推荐另一个写作网站：[语雀](https://www.yuque.com/)
+推荐写作网站：[语雀](https://www.yuque.com/)，飞书文档
 
 ### 关于我
 
-一个起步较晚，起点较低，但是一直在努力的程序员。
+GO+NODE后端开发 对存储和架构比较感兴趣 发展方向：架构师

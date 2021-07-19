@@ -23,6 +23,9 @@
   - [网络](#网络)
   - [操作系统](#操作系统)
 - [设计模式](#设计模式)
+- [云原生](#云原生)
+  - [docker](#docker)
+  - [Kubernetes](#Kubernetes)
 - [系统设计](#系统设计)
   - [必备知识](#必备知识)
   - [认证授权](#认证授权)
@@ -35,7 +38,6 @@
   - [分布式限流](#分布式限流)
 - [必会工具](#必会工具)
   - [Git](#Git)
-  - [Docker](#Docker)
 - [实战文章](#实战文章)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
@@ -102,6 +104,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Elasticsearch
 
+- [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
+
 ### MongoDB
 
 **基础知识：**
@@ -126,6 +130,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ## 计算机基础
 
 ### 数据结构
+我的[github代码仓库](https://github.com/dayueba/DA)，用GO和JS实现常见的数据结构与算法，并有相应的笔记
 
 - [红黑树基础]()
 - [不了解布隆过滤器？一文给你整的明明白白！](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/data-structure/bloom-filter)
@@ -153,6 +158,18 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
+
+
+## 云原生
+
+### docker
+
+
+- [Docker 基本概念解读](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker)
+- [一文搞懂 Docker 镜像的常用操作！](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
+- [我的Docker笔记合集](https://www.yuque.com/books/share/de30a6ba-5e79-4ec6-9748-ce42a56c2534?#%20%E3%80%8ADocker%E3%80%8B)
+
+### Kubernetes
 
 ## 系统设计
 
@@ -214,12 +231,6 @@ todo
 - [Git入门](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git)
 - [分支管理-Git flow](http://git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)
 - [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B)
-
-### Docker
-
-- [Docker 基本概念解读](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker)
-- [一文搞懂 Docker 镜像的常用操作！](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
-- [我的Docker笔记合集](https://www.yuque.com/books/share/de30a6ba-5e79-4ec6-9748-ce42a56c2534?#%20%E3%80%8ADocker%E3%80%8B)
 
 ## 实战文章
 - [如何设计一个秒杀系统](docs/mall/miaosha.md)

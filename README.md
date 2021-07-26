@@ -24,7 +24,7 @@
   - [操作系统](#操作系统)
 - [设计模式](#设计模式)
 - [云原生](#云原生)
-  - [docker](#docker)
+  - [Docker](#Docker)
   - [Kubernetes](#Kubernetes)
 - [系统设计](#系统设计)
   - [必备知识](#必备知识)
@@ -76,7 +76,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 **总结：**
 
 1. **[【推荐】MySQL/数据库 知识点总结](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL)**
-3. **[一千行MySQL学习笔记](https://snailclimb.gitee.io/javaguide/#/docs/database/一千行MySQL命令)**
 4. [MySQL高性能优化规范建议](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL高性能优化规范建议)
 5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
 6. **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
@@ -114,7 +113,9 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 消息队列
 
-消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： **[消息队列总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/message-queue)** 。
+消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： **[消息队列总结](https://xjip3se76o.feishu.cn/docs/doccnBD85O83ONNtjOLkHinML5g)** 。
+
+<!-- 应用场景 分布式事务  -->
 
 ### RabbitMQ
 
@@ -162,7 +163,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 云原生
 
-### docker
+### Docker
 
 
 - [Docker 基本概念解读](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker)
@@ -228,8 +229,7 @@ todo
 
 ### Git
 
-- [Git入门](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git)
-- [分支管理-Git flow](http://git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)
+- [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
 - [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B)
 
 ## 实战文章

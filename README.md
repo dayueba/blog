@@ -87,19 +87,23 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Redis
 
+- Redis前置菜: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
-- [关于缓存的一些重要概念(Redis前置菜)](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/some-concepts-of-caching)
-- [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 - [redis常见知识点](docs/database/Redis/redis.md)
 - [Redis 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-all)
-- [Redis 缓存击穿，穿透，雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [Redis面试题](docs/database/Redis/面试题.md)
+- [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - Redis系列文章合集：
-  1. 数据结构和算法：[5种基本数据结构](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构)，[跳跃表](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(2)——跳跃表)，[神奇的HyperLoglog解决统计问题](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题)，[亿级数据过滤和布隆过滤器](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器)，[GeoHash查找附近的人](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人)
+  1. [跳跃表](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(2)——跳跃表)，[亿级数据过滤和布隆过滤器](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器)
   2. [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
   3. [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
-  4. [史上最强【集群】入门实践教程](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程)
   5. [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
+  6. [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
+
+高可用
+- [主从同步](#)
+- [Redis Sentinel](#)
+- [Redis Cluster](#)
 
 ### Elasticsearch
 

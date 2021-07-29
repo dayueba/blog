@@ -66,6 +66,7 @@
 
 - [注意的点](https://xjip3se76o.feishu.cn/docs/doccnJPTeCDiI01jvDMAoYDWqSe)
 - [error](https://xjip3se76o.feishu.cn/docs/doccnxU4HTdnOq33vaBdxqHfDPd)
+
 ## 数据库
 
 ### MySQL
@@ -156,13 +157,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 [最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
 
-### 计算机组成原理
-
 
 #### Linux
 
 1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux)
 
+
+### 计算机组成原理
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)

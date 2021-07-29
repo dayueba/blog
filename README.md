@@ -22,6 +22,7 @@
   - [算法](#算法)
   - [网络](#网络)
   - [操作系统](#操作系统)
+  - [计算机组成原理](#计算机组成原理)
 - [设计模式](#设计模式)
 - [云原生](#云原生)
   - [Docker](#Docker)
@@ -63,6 +64,8 @@
 
 ### Go
 
+- [注意的点](https://xjip3se76o.feishu.cn/docs/doccnJPTeCDiI01jvDMAoYDWqSe)
+- [error](https://xjip3se76o.feishu.cn/docs/doccnxU4HTdnOq33vaBdxqHfDPd)
 ## 数据库
 
 ### MySQL
@@ -87,14 +90,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Redis
 
-- Redis前置菜: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
+- 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
-- [redis常见知识点](docs/database/Redis/redis.md)
-- [Redis 常见问题总结](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-all)
-- [Redis面试题](docs/database/Redis/面试题.md)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - Redis系列文章合集：
-  1. [跳跃表](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(2)——跳跃表)，[亿级数据过滤和布隆过滤器](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器)
   2. [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
   3. [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
   5. [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
@@ -137,7 +136,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### 数据结构
 我的[github代码仓库](https://github.com/dayueba/DA)，用GO和JS实现常见的数据结构与算法，并有相应的笔记
 
-- [红黑树基础]()
+- [跳表](#)
+- [红黑树基础](#)
 - [不了解布隆过滤器？一文给你整的明明白白！](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/data-structure/bloom-filter)
 - [数据结构知识学习与面试](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/数据结构)
 
@@ -155,6 +155,9 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### 操作系统
 
 [最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
+
+### 计算机组成原理
+
 
 #### Linux
 
@@ -262,4 +265,4 @@ todo
 
 ### 关于我
 
-GO+NODE后端开发 对存储和架构比较感兴趣 发展方向：架构师
+GO+NODE后端开发 对存储和架构比较感兴趣

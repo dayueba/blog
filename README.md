@@ -23,6 +23,8 @@
   - [网络](#网络)
   - [操作系统](#操作系统)
   - [计算机组成原理](#计算机组成原理)
+  - [概率论](#概率论)
+  - [统计学](#统计学)
 - [设计模式](#设计模式)
 - [云原生](#云原生)
   - [Docker](#Docker)
@@ -60,6 +62,9 @@
 
 - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B)
 
+新特性
+- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
+
 ### JavaScript
 
 ### Go
@@ -79,8 +84,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **总结：**
 
-1. **[【推荐】MySQL/数据库 知识点总结](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL)**
-4. [MySQL高性能优化规范建议](https://snailclimb.gitee.io/javaguide/#/docs/database/MySQL高性能优化规范建议)
+2. [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe)
+3. [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
 5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
 6. **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
 7. [聊聊主键](docs/database/MySQL/聊聊主键.md)
@@ -89,20 +94,27 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - 索引：[数据库索引总结](docs/database/MySQL/index.md)
 
+**高可用：**
+
+- [读写分离]()
+- [主从同步]()
+
 ### Redis
 
 - 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - Redis系列文章合集：
-  2. [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
-  3. [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
-  5. [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
-  6. [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
+  - [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
+  - [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
+  - [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
+  - [Redis过期/淘汰策略]()
+  - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
+  - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 
 高可用
 - [主从同步](#)
-- [Redis Sentinel](#)
+- [Redis Sentinel](https://xjip3se76o.feishu.cn/docs/doccnmpYlkFkKX3kg4shaD4qVSg)
 - [Redis Cluster](#)
 
 ### Elasticsearch
@@ -164,6 +176,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 
 ### 计算机组成原理
+
+### 概率论
+
+### 统计学
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)

@@ -30,7 +30,6 @@
   - [Docker](#Docker)
   - [Kubernetes](#Kubernetes)
 - [系统设计](#系统设计)
-  - [必备知识](#必备知识)
   - [认证授权](#认证授权)
   - [大型网站架构](#大型网站架构)
     - [性能测试](#性能测试)
@@ -44,11 +43,6 @@
 - [实战文章](#实战文章)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
-  - [学习方法](#学习方法)
-  - [书籍](#书籍)
-  - [优质博客](#优质博客)
-  - [实战项目](#实战项目)
-  - [优质课程](#优质课程)
 - [待办](#待办)
 - [说明](#说明)
 
@@ -60,12 +54,18 @@
 
 ### Python
 
-- [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B)
+<!-- - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B) -->
+- [装饰器]()
 
 新特性
 - [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
 
 ### JavaScript
+
+**Nodejs**
+
+- [Nodejs入门](docs/database/nodejs/node.md)
+- [Node事件循环机制](https://xjip3se76o.feishu.cn/docs/doccnX3HyDulo1Mte0ICkRQUTdd)
 
 ### Go
 
@@ -78,17 +78,17 @@
 mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
 
 - [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
-- [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B)
+<!-- - [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B) -->
 - [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
 
 **总结：**
 
-2. [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe)
-3. [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
-5. [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
-6. **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
-7. [聊聊主键](docs/database/MySQL/聊聊主键.md)
+- [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe)
+- [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
+- [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
+- **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
+- [聊聊主键](docs/database/MySQL/聊聊主键.md)
 
 **面试必问：**
 
@@ -108,7 +108,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
   - [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
   - [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
   - [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
-  - [Redis过期/淘汰策略]()
+  - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
   - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
   - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 
@@ -116,6 +116,9 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [主从同步](#)
 - [Redis Sentinel](https://xjip3se76o.feishu.cn/docs/doccnmpYlkFkKX3kg4shaD4qVSg)
 - [Redis Cluster](#)
+
+实战
+- [分布式锁](docs/database/Redis/redis-lock.md)
 
 ### Elasticsearch
 
@@ -129,32 +132,33 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 消息队列
 
-消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： **[消息队列总结](https://xjip3se76o.feishu.cn/docs/doccnBD85O83ONNtjOLkHinML5g)** 。
+消息队列在分布式系统中主要是为了解耦和削峰（也可以拿来与其它系统通信以及分布式事务）。相关阅读： **[消息队列总结](https://xjip3se76o.feishu.cn/docs/doccnBD85O83ONNtjOLkHinML5g)** 。
 
-<!-- 应用场景 分布式事务  -->
+- [消息队列常见问题总结](https://xjip3se76o.feishu.cn/docs/doccnSm6eNc0XqaIuZBveCMGqWg)
+
 
 ### RabbitMQ
 
-- [RabbitMQ 入门](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/rabbitmq)
-
+- [RabbitMQ 入门](https://xjip3se76o.feishu.cn/docs/doccn725GpfoylHyz4ZXjkVx0jd)
+- [RabbitMQ 提高](https://xjip3se76o.feishu.cn/docs/doccna3dWgYO1wVOtuHwxsgtTYg)
 
 ### Kafka
 
-- [Kafka入门+SpringBoot整合Kafka系列](https://github.com/Snailclimb/springboot-kafka)
-- [Kafka常见面试题总结](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/kafka-inverview)
-- [【加餐】Kafka入门看这一篇就够了](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/Kafka%E5%85%A5%E9%97%A8%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86)
+- [Kafka入门](docs/MQ/kafka-入门.md)
 
 ## 计算机基础
 
 ### 数据结构
 我的[github代码仓库](https://github.com/dayueba/DA)，用GO和JS实现常见的数据结构与算法，并有相应的笔记
 
+- [二叉树](#docs/DA/tree.md)
 - [跳表](#)
 - [红黑树基础](#)
-- [不了解布隆过滤器？一文给你整的明明白白！](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/data-structure/bloom-filter)
-- [数据结构知识学习与面试](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/数据结构)
+- [布隆过滤器](docs/dataStructures-algorithms/dataStructures/RedisBloom.md)
 
 ### 算法
+
+- [常见排序算法](docs/DA/sort.md)
 
 - 常见算法问题总结：
   - [几道常见的字符串算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的子符串算法题)
@@ -172,7 +176,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 #### Linux
 
-1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux)
+<!-- 1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux) -->
 
 
 ### 计算机组成原理
@@ -189,18 +193,11 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Docker
 
-
-- [Docker 基本概念解读](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker)
-- [一文搞懂 Docker 镜像的常用操作！](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
-- [我的Docker笔记合集](https://www.yuque.com/books/share/de30a6ba-5e79-4ec6-9748-ce42a56c2534?#%20%E3%80%8ADocker%E3%80%8B)
+- [Docker入门](docs/database/Docker/docker.md)
 
 ### Kubernetes
 
 ## 系统设计
-
-### 必备知识
-
-**[RestFul API 简明教程](https://snailclimb.gitee.io/javaguide/#/docs/system-design/restful-api)**
 
 ### 攻击技术
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
@@ -237,11 +234,16 @@ todo
 
 ## 分布式
 
+- [服务注册与发现](https://xjip3se76o.feishu.cn/docs/doccna6XCw1IcnwiqFMB37QCaCd)
+- [zookeeper入门](https://xjip3se76o.feishu.cn/docs/doccnzDT13vhdwntLesvvVDF4Cd)
+- [配置中心](https://xjip3se76o.feishu.cn/docs/doccnp7KjzUeyUIrl9ARj2aKXC9)
+<!-- - []() -->
 ### RPC
 
 让调用远程服务调用像调用本地方法那样简单。
 
 - [服务之间的调用为啥不直接用 HTTP 而用 RPC？](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/why-use-rpc)
+- [protobuf与grpc]()
 
 ### 分布式限流
 
@@ -258,7 +260,8 @@ todo
 
 ## 实战文章
 - [如何设计一个秒杀系统](docs/mall/miaosha.md)
-- [电商存储中的24个高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
+- [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
+- [实现一个短网址系统](docs/practice/short-url.md)
 
 ## 面试指南
 
@@ -269,6 +272,10 @@ todo
 
 - [我star的所有仓库](https://github.com/dayueba?tab=stars)
 - [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
+
+推荐的学习资源
+- [互联网 Java 工程师进阶知识完全扫盲](https://doocs.gitee.io/advanced-java/)
+- [Psyduck](https://github.com/SmartKeyerror/Psyduck)
 
 ## 待办
 

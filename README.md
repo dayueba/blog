@@ -13,7 +13,7 @@
   - [MySQL](#MySQL)
   - [Redis](#Redis)
   - [Elasticsearch](#Elasticsearch)
-  - [MongoDB](#MongoDB)
+  <!-- - [MongoDB](#MongoDB) -->
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
   - [Kafka](#Kafka)
@@ -79,7 +79,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
 <!-- - [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B) -->
-- [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
+- [自己整理的几道容易出错的面试题](docs/database/MySQL/mysql面试题.md)
 - [聊聊主键](docs/database/MySQL/聊聊主键.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
 
@@ -107,7 +107,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Redis
 
-- [Mianshiti](docs/database/Redis/面试题.md), [2](docs/database/Redis/redis.md)
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
 - 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
@@ -134,11 +133,11 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [es入门](docs/es/es入门.md)
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
-### MongoDB
+<!-- ### MongoDB
 
 **基础知识：**
 
-- [快速入门](http://www.macrozheng.com/#/reference/mongodb_start)
+- [快速入门](http://www.macrozheng.com/#/reference/mongodb_start) -->
 
 ## 消息队列
 
@@ -184,7 +183,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 [最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
 
 
-#### Linux
+<!-- #### Linux -->
 
 <!-- 1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux) -->
 
@@ -267,7 +266,7 @@ todo
 ### Git
 
 - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
-- [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B)
+<!-- - [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B) -->
 
 ## 实战文章
 - [如何设计一个秒杀系统](docs/mall/miaosha.md)

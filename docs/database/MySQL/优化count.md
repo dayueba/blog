@@ -1,55 +1,60 @@
-> 新建测试表
-> ```
-> CREATE TABLE `t6` (
->  `id` int(11) NOT NULL AUTO_INCREMENT,
->  `a` int(11) DEFAULT NULL,
->  `b` int(11) NOT NULL,
->  `c` int(11) DEFAULT NULL,
->  `d` int(11) DEFAULT NULL,
->  PRIMARY KEY (`id`),
->  KEY `idx_a` (`a`),
->  KEY `idx_b` (`b`)
->) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
->
->drop procedure if exists insert_t6; /* 如果存在存储过程insert_t6，则>>删除 */
->delimiter ;;
->create procedure insert_t6() /* 创建存储过程insert_t6 */
->begin
->declare i int; /* 声明变量i */
->set i=1; /* 设置i的初始值为1 */
->while(i<=10000)do /* 对满足i<=10000的值进行while循环 */
->insert into t6(a,b,c,d) values(i,i,i,i); /* 写入表t6中a、b两个字段，值都为i当前的值 */
->set i=i+1; /* 将i加1 */
->end while;
->end;;
->delimiter ; /* 创建批量写入10000条数据到表t6的存储过程insert_t6 */
->call insert_t6(); /* 运行存储过程insert_t6 */
->
->insert into t6(a,b,c,d) values (null,10001,10001,10001),(10002,10002,10002,10002);
->
->drop table if exists t7; /* 如果表t7存在则删除表t7 */
->create table t7 like t6; /* 创建表t7，表结构与t6一致 */
->alter table t7 engine =myisam; /* 把t7表改为MyISAM存储引擎 */
->insert into t7 select * from t6;  /* 把t6表的数据转到t7表 */
->
->CREATE TABLE `t8` (
->  `id` int(11) NOT NULL AUTO_INCREMENT,
->  `a` int(11) DEFAULT NULL,
->  `b` int(11) NOT NULL,
->  `c` int(11) DEFAULT NULL,
->  `d` int(11) DEFAULT NULL,
->  PRIMARY KEY (`id`)
->) ENGINE=InnoDB  CHARSET=utf8mb4;
-> insert into t8 select * from t6;  /* 把t6表的数据转到t8表 */
->```
+ 新建测试表
+ ```sql
+ CREATE TABLE `t6` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `a` int(11) DEFAULT NULL,
+  `b` int(11) NOT NULL,
+  `c` int(11) DEFAULT NULL,
+  `d` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `idx_a` (`a`),
+  KEY `idx_b` (`b`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+
+drop procedure if exists insert_t6; /* 如果存在存储过程insert_t6，则>>删除 */
+delimiter ;;
+create procedure insert_t6() /* 创建存储过程insert_t6 */
+begin
+declare i int; /* 声明变量i */
+set i=1; /* 设置i的初始值为1 */
+while(i<=10000)do /* 对满足i<=10000的值进行while循环 */
+insert into t6(a,b,c,d) values(i,i,i,i); /* 写入表t6中a、b两个字段，值都为i当前的值 */
+set i=i+1; /* 将i加1 */
+end while;
+end;;
+delimiter ; /* 创建批量写入10000条数据到表t6的存储过程insert_t6 */
+call insert_t6(); /* 运行存储过程insert_t6 */
+
+insert into t6(a,b,c,d) values (null,10001,10001,10001),(10002,10002,10002,10002);
+
+drop table if exists t7; /* 如果表t7存在则删除表t7 */
+create table t7 like t6; /* 创建表t7，表结构与t6一致 */
+alter table t7 engine =myisam; /* 把t7表改为MyISAM存储引擎 */
+insert into t7 select * from t6;  /* 把t6表的数据转到t7表 */
+
+CREATE TABLE `t8` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `a` int(11) DEFAULT NULL,
+  `b` int(11) NOT NULL,
+  `c` int(11) DEFAULT NULL,
+  `d` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  CHARSET=utf8mb4;
+ insert into t8 select * from t6;  /* 把t6表的数据转到t8表 */
+```
 ## 重新认识count
 
-### count(a)和count(*)的区别
+### count(*)，count(1), count(a), count(distinct a)，count(主键)的区别
 
-- 当 count() 统计某一列时，比如 count(a)，a 表示列名，是不统计 null 的。
-- 而 count(*) 无论是否包含空值，都会统计。
+- count(*) 并不会把全部字段取出来，而是专门做了优化，不取值。
+- count(1) InnoDB引擎遍历整张表，但不取值。server层对于返回的每一行，放一个数字“1”进去，判断是不可能为空的，按行累加。
+- count(a)：
+   - 如果这个“字段”是定义为not null的话，一行行地从记录里面读出这个字段，判断不能为null，按行累加；
+   - 如果这个“字段”定义允许为null，那么执行的时候，判断到有可能是null，还要把值取出来再判断一下，不是null才累加。
+- count(distinct a)：在count(a)的基础上去重
+- count(主键) ：InnoDB引擎会遍历整张表，把每一行的id值都取出来，返回给server层。server层拿到id后，判断是不可能为空的，就按行累加。
 
-如果希望知道结果集的行数，最好使用 count(*)。
+按照效率排序的话，count(字段) < count(主键id) < count(1) ≈ count( * )，尽量使用count(*)。
 
 ### MyISAM引擎和InnoDB引擎count(*)的区别
 对于 MyISAM 引擎，如果没有 where 子句，也没检索其它列，那么 count(*) 将会非常快。因为 MyISAM 引擎会把表的总行数存在磁盘上
@@ -94,9 +99,28 @@ mysql> explain select count(*) from t6;
 
 从 MySQL 5.7.18 开始，通过遍历最小的可用二级索引来处理 count(*) 语句。如果不存在二级索引，则扫描聚簇索引。但是，如果索引记录不完全在缓存池中的话，处理 count(*) 也是比较久的。
 
-新版本为什么会使用二级索引来处理 count(*) 语句呢？
+**新版本为什么会使用二级索引来处理 count(*) 语句呢？**
 
 原因是 InnoDB 二级索引树的叶子节点上存放的是主键，而主键索引树的叶子节点上存放的是整行数据，所以二级索引树比主键索引树小。因此优化器基于成本的考虑，优先选择的是二级索引。所以 count(主键) 其实没 count (*) 快。
+
+### 为什么InnoDB不和MyISAM一样，也把总行数存储起来呢
+这是因为即使是在同一个时刻的多个查询，由于多版本并发控制（MVCC）的原因，InnoDB表“应该返回多少行”也是不确定的。
+
+通过一个例子来更好的理解：
+
+假设表t中现在有10000条记录，我们设计了三个用户并行的会话。
+
+- 会话A先启动事务并查询一次表的总行数；
+- 会话B启动事务，插入一行后记录后，查询表的总行数；
+- 会话C先启动一个单独的语句，插入一行记录后，查询表的总行数。
+
+我们假设从上到下是按照时间顺序执行的，同一行语句是在同一时刻执行的。
+
+![](image.png)
+
+你会看到，在最后一个时刻，三个会话A、B、C会同时查询表t的总行数，但拿到的结果却不同
+
+这和InnoDB的事务设计有关系，可重复读是它默认的隔离级别，在代码上就是通过多版本并发控制，也就是MVCC来实现的。每一行记录都要判断自己是否对这个会话可见，因此对于count(*)请求来说，InnoDB只好把数据一行一行地读出依次判断，可见的行才能够用于计算“基于这个查询”的表的总行数。
 
 ### count(1)比count(*)快吗？
 在前面我们知道 count(*) 无论是否包含空值，所有结果都会统计。

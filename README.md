@@ -1,7 +1,7 @@
 # blog
 这是我的个人博客主页
 
-记录自己写的博客以及推荐一些学习资料
+记录自己写的博客以及推荐一些学习资料，希望大家都能成为优秀的程序员。
 
 ## 目录
 - [学习方法](#学习方法)
@@ -55,7 +55,7 @@
 ### Python
 
 <!-- - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B) -->
-- [装饰器]()
+- todo: [装饰器]()
 
 新特性
 - [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
@@ -80,48 +80,58 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
 <!-- - [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B) -->
 - [自己整理的几道面试题](docs/database/MySQL/mysql面试题.md)
+- [聊聊主键](docs/database/MySQL/聊聊主键.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
 
 **总结：**
 
-- [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe)
+- [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe), [mvcc](docs/database/MySQL/mvcc.md)
 - [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
-- [一条SQL语句在MySQL中如何执行的](https://snailclimb.gitee.io/javaguide/#/docs/database/一条sql语句在mysql中如何执行的)
-- **[MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)**
-- [聊聊主键](docs/database/MySQL/聊聊主键.md)
+- [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
+- [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
+- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)
+- 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md)
 
-**面试必问：**
+**sql优化**
 
-- 索引：[数据库索引总结](docs/database/MySQL/index.md)
+- [分析SQL执行效率](https://www.yuque.com/docs/share/52941483-0e31-4665-a371-2b52e2febe66), [执行效率分析](docs/database/MySQL/执行效率分析.md)
+- [优化count](docs/database/MySQL/优化count.md)
+- [优化分页查询](docs/database/MySQL/优化分页查询.md)
+- [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
+- [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
+- [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
 
 **高可用：**
 
-- [读写分离]()
-- [主从同步]()
+- [主从同步/读写分离](https://xjip3se76o.feishu.cn/docs/doccnmplRlj38wtL5V9hrIc7q4l)
 
 ### Redis
 
-- 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
+- [Mianshiti](docs/database/Redis/面试题.md), [2](docs/database/Redis/redis.md)
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
+- 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
+- [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
-- Redis系列文章合集：
-  - [持久化](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(7)——持久化)
-  - [发布订阅与Stream](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream)
-  - [Redis数据类型、编码、底层数据结构的关系看这篇](https://snailclimb.gitee.io/javaguide/#/docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系)
-  - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
-  - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
-  - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
+- 持久化: [AOF](https://www.yuque.com/docs/share/c0569ec3-7f9e-4173-959c-399b3ad79847), [RDB](https://www.yuque.com/docs/share/bc561448-6a86-4c44-b255-481def852ae0), [优化方案](https://www.yuque.com/docs/share/c44e4f7e-c4d4-4522-a597-48e6cea4d9cb)
+- [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
+- [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
+- [零碎知识点](docs/database/Redis/零碎知识点.md)
 
 高可用
-- [主从同步](#)
+- [主从同步](docs/database/Redis/主从同步.md)
 - [Redis Sentinel](https://xjip3se76o.feishu.cn/docs/doccnmpYlkFkKX3kg4shaD4qVSg)
-- [Redis Cluster](#)
+- todo: [Redis Cluster](#)
 
 实战
 - [分布式锁](docs/database/Redis/redis-lock.md)
+- [限流](docs/database/Redis/限流.md)
+- [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
+- [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
+- [使用Redis实现防止超卖的方法](docs/database/Redis/使用Redis实现防止超卖的方法.md)
 
 ### Elasticsearch
 
+- [es入门](docs/es/es入门.md)
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
 ### MongoDB
@@ -187,15 +197,17 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
-
+- [函数式编程](docs/FunctionalProgramming/FunctionalProgramming.md)
 
 ## 云原生
 
 ### Docker
 
-- [Docker入门](docs/database/Docker/docker.md)
+- [Docker入门](docs/Docker/docker.md)
 
 ### Kubernetes
+
+- [etcd](docs/Docker/etcd.md)
 
 ## 系统设计
 
@@ -242,8 +254,7 @@ todo
 
 让调用远程服务调用像调用本地方法那样简单。
 
-- [服务之间的调用为啥不直接用 HTTP 而用 RPC？](https://snailclimb.gitee.io/javaguide/#/docs/system-design/data-communication/why-use-rpc)
-- [protobuf与grpc]()
+- [protobuf与grpc](docs/rpc/protobuf&grpc.md)
 
 ### 分布式限流
 

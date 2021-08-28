@@ -120,5 +120,31 @@ D持久性由内存+redo log来保证，mysql修改数据同时在内存和redo 
 
 还是拿上面的user表举例子，假设我们插入两条数据，他们实际上应该长这样
 
+## int(3)和int(11)的区别
+varchar(m)，m表示字符长度，(注意不是字节长度！varchar(1)可以存储一个中文）。**但是int(m)，m不表示存储数字的长度！**
+
+**int (3) 和 int (11) 占用的硬件存储空间完全相同**
+首先，我们在申明某个字段数据类型为 int 的时候，不管是 int(3) 还是 int(11)，在 MySQL 中存储时都占用 4 个字节的长度。
+
+1 个字节（Byte） = 8 个二进制位（bit），所以 1 个 int = 4 Byte = 4 * 8 bit = 32 bit，计算机中使用首个比特位存储数字符号（参考补码的定义），所以可以算出 int(m) 的存储范围在 [-2147483648，2147483647] 之间。
+
+**int (3) 和 int (11) 在 zerofill 关键词修饰时展示不同**
+我们可以创建一张测试表，并且插入一条数据
+```sql
+CREATE TABLE `test_int` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `num1` int(3)  zerofill,
+  `num2` int(11)  zerofill
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into test_int (num1, num2) values (1,1);
+```
+
+![](284c6b08-462b-4c9e-918a-7b57229bc194.png)
+
+如上图所示，存储相同的数字 1，num1 前补全了 2 个 0，num2 前补全了 10 个 0，
+
+所以可以得出结论：int(m) 中的 m 表示在 zerofill 修饰时，数字长度不足 m 时前缀补充的 0 的个数，除此之外，两者使用时没有任何区别。
+
 ## 参考资料
 - [这是我见过最有用的Mysql面试题，面试了无数公司总结的](https://juejin.im/post/6868270408534720525)

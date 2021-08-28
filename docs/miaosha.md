@@ -41,14 +41,14 @@
 >
 > Lua脚本是类似于Redis事务，有一定的原子性，不会被其它命令插队，可以完成一些Redis事务性操作
 
-```
+```lua
 // 例子
-if (redis.call('exists', KEYS[1]=1)) then
+if (redis.call('exists', KEYS[1]) ==1) then
   local stock = tonumber(redis.call('get', KEYS[1]));
-  if (stock <= 0)
+  if (stock <= 0) then
     return -1;
   end;
-  redis.call('decr', KEYS[1]);
+  redis.call('incrby', KEYS[1], -1);
   return stock - 1;
 end;
 return -1;

@@ -62,10 +62,17 @@
 
 ### JavaScript
 
+- [闭包](docs/js/闭包.md)
+- [JS 内存管理机制](docs/js/JS内存管理机制.md)
+- [promise详解](docs/js/promise.md)
+
+**TypeScript**: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
+- [TypeScript](docs/js/typescript.md)
+
 **Nodejs**
 
-- [Nodejs入门](docs/database/nodejs/node.md)
-- [Node事件循环机制](https://xjip3se76o.feishu.cn/docs/doccnX3HyDulo1Mte0ICkRQUTdd)
+- [Nodejs入门](docs/js/nodejs/node.md)
+- [Node事件循环机制](docs/js/事件循环机制.md)
 
 ### Go
 
@@ -85,6 +92,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **总结：**
 
+- [开发与设计规范](docs/database/MySQL/开发与设计规范.md)
 - [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe), [mvcc](docs/database/MySQL/mvcc.md)
 - [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
 - [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
@@ -100,6 +108,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
 - [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
 - [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
+- [整体优化思路]()
 
 **高可用：**
 

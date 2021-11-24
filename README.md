@@ -58,12 +58,15 @@
 
 ### JavaScript
 
+- [数据类型](docs/js/数据类型.md)
+- [深拷贝与浅拷贝](docs/js/深拷贝与浅拷贝.md)
 - [闭包](docs/js/闭包.md)
 - [JS 内存管理机制](docs/js/JS内存管理机制.md)
 - [promise详解](docs/js/promise.md)
 
 **TypeScript**: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
 - [TypeScript](docs/js/typescript.md)
+- [类型](docs/js/ts/类型.md)
 
 **Nodejs**
 
@@ -183,6 +186,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 1. [计算机网络常见面试题](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络)
 2. [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/干货：计算机网络知识总结)
+- [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
+- []
 
 ### 操作系统
 
@@ -262,7 +267,7 @@ todo
 <!-- - [我的Git笔记合集](https://www.yuque.com/books/share/1205240a-67ff-484e-9f4c-1d63e2e34e2c?#%20%E3%80%8Agit%E3%80%8B) -->
 
 ## 实战文章
-- [如何设计一个秒杀系统](docs/mall/miaosha.md)
+- [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](docs/practice/short-url.md)
 

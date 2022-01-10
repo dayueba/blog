@@ -117,7 +117,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### Redis
 
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
-- 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
+- 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](https://xjip3se76o.feishu.cn/docs/doccn1Pwikkm00Fta4xzo9vY7vZ), [缓存一致性](docs/database/Redis/缓存更新策略.md), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - 持久化: [AOF](https://www.yuque.com/docs/share/c0569ec3-7f9e-4173-959c-399b3ad79847), [RDB](https://www.yuque.com/docs/share/bc561448-6a86-4c44-b255-481def852ae0), [优化方案](https://www.yuque.com/docs/share/c44e4f7e-c4d4-4522-a597-48e6cea4d9cb)

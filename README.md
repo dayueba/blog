@@ -250,6 +250,7 @@ todo
 ### RPC
 
 - [rpc简介](docs/rpc/intro.md)
+- [消息协议](docs/rpc/message.md)
 - [protobuf与grpc](docs/rpc/protobuf&grpc.md)
 
 ### 分布式限流
@@ -294,5 +295,7 @@ todo
 推荐写作网站：[语雀](https://www.yuque.com/)，飞书文档
 
 ### 关于我
+
+这是我看的一些和编程无关，但是对自身发展有用的书，并总结了相应的笔记，推荐大家看看：[地址](https://xjip3se76o.feishu.cn/docs/doccnctBNWVnDHBhSP1ShlQxDHc)
 
 GO+NODE后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）

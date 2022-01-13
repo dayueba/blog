@@ -28,7 +28,8 @@
 - [设计模式](#设计模式)
 - [云原生](#云原生)
   - [Docker](#Docker)
-  - [Kubernetes](#Kubernetes)
+  - [etcd](#etcd)
+  <!-- - [Kubernetes](#Kubernetes) -->
 - [系统设计](#系统设计)
   - [认证授权](#认证授权)
 - [分布式](#分布式)
@@ -108,7 +109,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
 - [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
 - [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
-- [整体优化思路]()
+<!-- - [整体优化思路]() -->
 
 **高可用：**
 
@@ -215,9 +216,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [Docker入门](docs/Docker/docker.md)
 
-### Kubernetes
+### etcd
 
-- [etcd](docs/Docker/etcd.md)
+- [etcd简介](docs/Docker/etcd.md)
+
+<!-- ### Kubernetes -->
+
+
 
 ## 系统设计
 

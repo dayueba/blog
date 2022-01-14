@@ -118,6 +118,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 **设计与实现**
 - [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
 - [InnoDB group commit](docs/database/MySQL/innodb-group-commit.md)
+- [InnoDB undo log 与 mvcc](docs/database/MySQL/innodb-undo-log-and-mvcc.md)
+
 
 ### Redis
 

@@ -75,3 +75,6 @@ LOGICAL_CLOCK 利用了这样的一个事实: 多个事务如果能够同时进�
 
 同时，处于prepare和committed 状态之间的事务，其实也是可以并发执行的。因此，从库将会对这些事务进行并发执行，这些事务全部处理完毕后，再转而并发
 地执行下一批事务
+
+## 参考
+- [SmartKeyerror/Psyduck 仓库的博客](https://smartkeyerror.oss-cn-shenzhen.aliyuncs.com/Phyduck/database/InnoDB%20Group%20Commit.pdf)

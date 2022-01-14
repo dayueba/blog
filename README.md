@@ -115,6 +115,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [主从同步/读写分离](https://xjip3se76o.feishu.cn/docs/doccnmplRlj38wtL5V9hrIc7q4l)
 
+**设计与实现**
+ - [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
+
+
 ### Redis
 
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)

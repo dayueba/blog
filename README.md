@@ -116,8 +116,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [主从同步/读写分离](https://xjip3se76o.feishu.cn/docs/doccnmplRlj38wtL5V9hrIc7q4l)
 
 **设计与实现**
- - [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
-
+- [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
+- [InnoDB group commit](docs/database/MySQL/innodb-group-commit.md)
 
 ### Redis
 
@@ -192,7 +192,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 1. [计算机网络常见面试题](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络)
 2. [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/干货：计算机网络知识总结)
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
-- []
+<!-- - [] -->
 
 ### 操作系统
 

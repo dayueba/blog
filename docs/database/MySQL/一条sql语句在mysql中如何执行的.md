@@ -35,6 +35,7 @@ select * from t1 join t2 using(ID)  where t1.c=10 and t2.d=20;
 
 **扩展阅读：**
 - [MySQL为什么有时候会选错索引？](docs/database/MySQL/MySQL为什么有时候会选错索引.md)
+docs/database/MySQL/MySQL为什么有时候会选错索引.md
 
 
 ### 执行器

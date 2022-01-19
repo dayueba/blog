@@ -99,14 +99,14 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
 - [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
 - 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)
-- 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md)
+- 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md), [意向锁、排它锁以及共享锁]()
 
 **sql优化**
 
 - [分析SQL执行效率](https://www.yuque.com/docs/share/52941483-0e31-4665-a371-2b52e2febe66), [执行效率分析](docs/database/MySQL/执行效率分析.md)
 - [优化count](docs/database/MySQL/优化count.md)
 - [优化分页查询](docs/database/MySQL/优化分页查询.md)
-- [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
+- [join原理](docs/database/MySQL/mysql-join.md), [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
 - [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
 - [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
 <!-- - [整体优化思路]() -->
@@ -116,6 +116,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [主从同步/读写分离](https://xjip3se76o.feishu.cn/docs/doccnmplRlj38wtL5V9hrIc7q4l)
 
 **设计与实现**
+- [为什么MySQL使用B+Tree](docs/database/MySQL/为什么MySQL使用B+Tree.md)
 - [InnoDB 数据页结构](docs/database/MySQL/innodb-page.md)
 - [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
 - [InnoDB group commit](docs/database/MySQL/innodb-group-commit.md)

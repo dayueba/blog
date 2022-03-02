@@ -13,7 +13,7 @@
   - [MySQL](#MySQL)
   - [Redis](#Redis)
   - [Elasticsearch](#Elasticsearch)
-  <!-- - [MongoDB](#MongoDB) -->
+  - [MongoDB](#MongoDB)
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
   - [Kafka](#Kafka)
@@ -90,6 +90,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [自己整理的几道容易出错的面试题](docs/database/MySQL/mysql面试题.md)
 - [聊聊主键](docs/database/MySQL/mysql-primary-key.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
+- [MySQL8.0新特性](https://xjip3se76o.feishu.cn/docs/doccnEzv7JuedymQlUyo1w9D6Xd#lCIfAG)
 
 **总结：**
 
@@ -148,19 +149,23 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Elasticsearch
 
-- [es入门](docs/es/es入门.md)
+- [es入门](docs/es/es简介.md)
+- [安装与配置](docs/es/es-install-config.md)
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
-<!-- ### MongoDB
+### MongoDB
 
 **基础知识：**
 
-- [快速入门](http://www.macrozheng.com/#/reference/mongodb_start) -->
+todo
+- [高可用]()
 
 ## 消息队列
 
 消息队列在分布式系统中主要是为了解耦和削峰（也可以拿来与其它系统通信以及分布式事务）。相关阅读： **[消息队列总结](https://xjip3se76o.feishu.cn/docs/doccnBD85O83ONNtjOLkHinML5g)** 。
 
+- [消息队列入门](docs/MQ/mq-intro.md)
+- [主流消息中间件及选型](docs/MQ/mq-select.md)
 - [消息队列常见问题总结](https://xjip3se76o.feishu.cn/docs/doccnSm6eNc0XqaIuZBveCMGqWg)
 
 
@@ -168,6 +173,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [RabbitMQ 入门](https://xjip3se76o.feishu.cn/docs/doccn725GpfoylHyz4ZXjkVx0jd)
 - [RabbitMQ 提高](https://xjip3se76o.feishu.cn/docs/doccna3dWgYO1wVOtuHwxsgtTYg)
+- [RabbitMQ数据存储](docs/MQ/rabbitmq-data-store.md)
 
 ### Kafka
 

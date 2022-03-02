@@ -1,3 +1,14 @@
+> 官网：https://www.elastic.co/cn/elasticsearch/
+
+## 功能
+1. 分布式实时搜索引擎
+    1. 使用场景：百度、谷歌，站内搜索
+2. 大数据近实时分析引擎
+3. 海量存储
+
+## 特点
+1. 
+
 ## 核心概念
 
 ### Near Realtime

@@ -83,14 +83,20 @@
 ## 数据库
 
 ### MySQL
-mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
 
 - [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
+
+基础：
+- [MySQL8.0新特性](https://xjip3se76o.feishu.cn/docs/doccnEzv7JuedymQlUyo1w9D6Xd#lCIfAG)
+- [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
+
+
+mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
+
 <!-- - [我的MySQL文章合集](https://www.yuque.com/u1169619/bgwsg4#%20%E3%80%8AMySQL%E3%80%8B) -->
 - [自己整理的几道容易出错的面试题](docs/database/MySQL/mysql面试题.md)
 - [聊聊主键](docs/database/MySQL/mysql-primary-key.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
-- [MySQL8.0新特性](https://xjip3se76o.feishu.cn/docs/doccnEzv7JuedymQlUyo1w9D6Xd#lCIfAG)
 
 **总结：**
 
@@ -98,7 +104,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe), [mvcc](docs/database/MySQL/mvcc.md)
 - [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
 - [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
-- [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
 - 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)
 - 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md), [意向锁、排它锁以及共享锁]()
 
@@ -151,7 +156,11 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [es入门](docs/es/es简介.md)
 - [安装与配置](docs/es/es-install-config.md)
+- [索引基本操作](docs/es/索引基本操作.md)
+- [文档基本操作](docs/es/文档基本操作.md)
+- [mapping](docs/es/mapping.md)
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
+
 
 ### MongoDB
 
@@ -178,6 +187,9 @@ todo
 ### Kafka
 
 - [Kafka入门](docs/MQ/kafka-入门.md)
+- [基本概念](docs/MQ/kafka/基本概念.md)
+- [常用配置](docs/MQ/kafka/配置文件.md)
+- [基本操作](docs/MQ/kafka/基本操作.md)
 
 ## 计算机基础
 
@@ -191,18 +203,14 @@ todo
 
 ### 算法
 
+常见算法问题总结：
 - [常见排序算法](docs/DA/sort.md)
-
-- 常见算法问题总结：
-  - [几道常见的字符串算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的子符串算法题)
-  - [几道常见的链表算法题总结](https://snailclimb.gitee.io/javaguide/#/docs/dataStructures-algorithms/几道常见的链表算法题)
+- todo [常见的字符串算法题](#)
+- todo [常见的链表算法题](#)
 
 ### 网络
 
-1. [计算机网络常见面试题](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络)
-2. [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/干货：计算机网络知识总结)
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
-<!-- - [] -->
 
 ### 操作系统
 

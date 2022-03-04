@@ -1,4 +1,4 @@
-> 官网：https://www.elastic.co/cn/elasticsearch/
+> 文档地址：https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
 
 ## 功能
 1. 分布式实时搜索引擎
@@ -30,4 +30,17 @@ Node 是集群中的一个节点，节点也有一个名称，默认是随机分
 ### Index
 索引包含了一堆有相似结构的文档数据，比如商品索引。一个索引包含很多 document，一个索引就代表了一类相似或者相同的 ducument。
 
-Type
+对应mysql中的数据库
+
+### Type
+对应mysql的表
+
+注意ES每个大版本之间区别很大：
+- ES 5.x中一个index可以有多种type。
+- ES 6.x中一个index只能有一种type。
+- ES 7.x中只有一个index:_doc。以后要逐渐移除type这个概念。
+
+### mapping
+mapping定义了每个字段的类型等信息。相当于关系型数据库中的表结构。
+
+详细地址：https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html#_multi_fields_2

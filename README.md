@@ -115,6 +115,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [join原理](docs/database/MySQL/mysql-join.md), [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
 - [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
 - [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
+- [优化order by](docs/database/MySQL/order_by.md)
 <!-- - [整体优化思路]() -->
 
 **高可用：**
@@ -131,14 +132,22 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Redis
 
-- [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)
+- [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)，[学习资料推荐](https://xjip3se76o.feishu.cn/docs/doccnPKZHMNHqnychGUCrwS6fXc)
 - 缓存: [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1), [缓存一致性](docs/database/Redis/缓存更新策略.md), [缓存击穿/穿透/雪崩](docs/database/Redis/击穿_穿透_雪崩.md)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
-- 持久化: [AOF](https://www.yuque.com/docs/share/c0569ec3-7f9e-4173-959c-399b3ad79847), [RDB](https://www.yuque.com/docs/share/bc561448-6a86-4c44-b255-481def852ae0), [优化方案](https://www.yuque.com/docs/share/c44e4f7e-c4d4-4522-a597-48e6cea4d9cb)
 - [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
 - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
 - [零碎知识点](docs/database/Redis/零碎知识点.md)
+- [Redis单线程与多线程](https://xjip3se76o.feishu.cn/docs/doccn8OCWaPKKv6Wx2xJHxriXtd)
+
+**持久化**
+
+记住：持久化的目的是为了重启时快速恢复数据
+- [持久化简介](https://xjip3se76o.feishu.cn/docs/doccnMeJBkpmpabnlyModXbJHcg)
+- [AOF](https://xjip3se76o.feishu.cn/docs/doccnW6NiitQBCw2bVahUo48wnb)，[AOF重写](https://xjip3se76o.feishu.cn/docs/doccn1yGrTMNSgA5FDqqBkt4iih)
+- [RDB](https://xjip3se76o.feishu.cn/docs/doccndeuPUjLL44q0xr56i9yGXb)
+- [混合持久化]()
 
 高可用
 - [主从同步](docs/database/Redis/主从同步.md)
@@ -179,10 +188,15 @@ todo
 
 
 ### RabbitMQ
-
+- [AMQP协议](docs/MQ/amqp.md)
 - [RabbitMQ 入门](https://xjip3se76o.feishu.cn/docs/doccn725GpfoylHyz4ZXjkVx0jd)
-- [RabbitMQ 提高](https://xjip3se76o.feishu.cn/docs/doccna3dWgYO1wVOtuHwxsgtTYg)
 - [RabbitMQ数据存储](docs/MQ/rabbitmq-data-store.md)
+- [ttl机制](https://xjip3se76o.feishu.cn/docs/doccntQ6Lr9wvDepytGvDqfcPdc)
+- [配置文件](https://upyun.feishu.cn/docs/doccnXFypkaCHSjhyiZQOHSTCUh)
+- [connection和channel的关系](https://xjip3se76o.feishu.cn/docs/doccnleNUhJqsUN2KUtSU9Zv3he)
+- [rabbitmq可靠性](https://xjip3se76o.feishu.cn/docs/doccnQ798zyK4xw393BJ8kMO2oc)
+- [RabbitMQ集群与运维](https://xjip3se76o.feishu.cn/docs/doccnSRSj6G14onkVvi6ng9Z1lh)
+- [一些QA](https://xjip3se76o.feishu.cn/docs/doccnviQTmErPxNlTM8GEvIMEtg)
 
 ### Kafka
 

@@ -11,6 +11,9 @@ RabbitMQ存储层包含两个部分：队列索引和消息存储。
 
 ![](imgs/screenshot-20220211-161741.png)
 
+- msg_store_persistent: 持久化的消息
+- msg_store_transient: 非持久化的消息
+
 ## 队列索引：rabbit_queue_index
 索引维护队列的落盘消息的信息，如存储地点、是否已被给消费者接收、是否已被消费者ack等。
 
@@ -18,12 +21,8 @@ RabbitMQ存储层包含两个部分：队列索引和消息存储。
 
 ![](imgs/screenshot-20220211-161929.png)
 
-- msg_store_persistent: 持久化的消息
-- msg_store_transient: 非持久化的消息
-
-索引使用顺序的段文件来存储，后缀为.idx，文件名从0开始累加，每个段文件中包含固定的
-segment_entry_count 条记录，默认值是16384。每个index从磁盘中读取消息的时候，至少要在内存
-中维护一个段文件，所以设置 queue_index_embed_msgs_below 值得时候要格外谨慎，一点点增大也
+索引使用顺序的段文件来存储，后缀为.idx，文件名从0开始累加，每个段文件中包含固定的 `segment_entry_count` 条记录，默认值是16384。每个index从磁盘中读取消息的时候，至少要在内存
+中维护一个段文件，所以设置`queue_index_embed_msgs_below`值得时候要格外谨慎，一点点增大也
 可能会引起内存爆炸式增长。
 
 ![](imgs/30df866a-08e6-4556-ba40-381bc6fe08e6.png)
@@ -42,8 +41,7 @@ Storage）表中记录消息在文件中的位置映射和文件的相关信息�
 ![](imgs/05df54d8-b2ae-458d-a328-dd1131e75283.png)
 
 消息（包括消息头、消息体、属性）可以直接存储在index中，也可以存储在store中。最佳的方式
-是较小的消息存在index中，而较大的消息存在store中。这个消息大小的界定可以通过
-queue_index_embed_msgs_below 来配置，默认值为4096B。当一个消息小于设定的大小阈值时，就
+是较小的消息存在index中，而较大的消息存在store中。这个消息大小的界定可以通过 `queue_index_embed_msgs_below` 来配置，默认值为4096B。当一个消息小于设定的大小阈值时，就
 可以存储在index中，这样性能上可以得到优化。一个完整的消息大小小于这个值，就放到索引中，否
 则放到持久化消息文件中。
 
@@ -82,7 +80,7 @@ rabbitmq.conf中的配置信息：
 ![](imgs/screenshot-20220211-162804.png)
 
 ## 队列结构
-通常队列由rabbit_amqqueue_process和backing_queue这两部分组成，
+通常队列由`rabbit_amqqueue_process`和`backing_queue`这两部分组成，
 rabbit_amqqueue_process负责协议相关的消息处理，即接收生产者发布的消息、向消费者交付消
 息、处理消息的确认（包括生产端的confirm和消费端的ack）等。backing_queue是消息存储的具体形
 式和引擎，并向rabbit_amqqueue_process提供相关的接口以供调用。

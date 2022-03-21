@@ -139,19 +139,21 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)，[学习资料推荐](https://xjip3se76o.feishu.cn/docs/doccnPKZHMNHqnychGUCrwS6fXc)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
-- [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
-- [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
 - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
 - [零碎知识点](docs/database/Redis/零碎知识点.md)
 - [Redis单线程与多线程](https://xjip3se76o.feishu.cn/docs/doccn8OCWaPKKv6Wx2xJHxriXtd)
 
-**持久化**
+**数据结构**
+- [五种基础数据结构](https://lrita.github.io/2019/03/13/the-internal-of-file-syscall/#fsyncfdatasync)
+- [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
+- [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
 
+**持久化**
 记住：持久化的目的是为了重启时快速恢复数据
 - [持久化简介](https://xjip3se76o.feishu.cn/docs/doccnMeJBkpmpabnlyModXbJHcg)
 - [AOF](https://xjip3se76o.feishu.cn/docs/doccnW6NiitQBCw2bVahUo48wnb)，[AOF重写](https://xjip3se76o.feishu.cn/docs/doccn1yGrTMNSgA5FDqqBkt4iih)
 - [RDB](https://xjip3se76o.feishu.cn/docs/doccndeuPUjLL44q0xr56i9yGXb)
-- [混合持久化]()
+- [混合持久化](https://xjip3se76o.feishu.cn/docs/doccnY9oQTBEJHy07bZYIusAJIf)
 
 高可用
 - [主从同步](docs/database/Redis/主从同步.md)

@@ -12,6 +12,7 @@
 - [数据库](#数据库)
   - [MySQL](#MySQL)
   - [Redis](#Redis)
+  - [Memcached](#memcached)
   - [Elasticsearch](#Elasticsearch)
   - [MongoDB](#MongoDB)
 - [消息队列](#消息队列)
@@ -88,7 +89,6 @@
 
 基础：
 - [MySQL8.0新特性](https://xjip3se76o.feishu.cn/docs/doccnEzv7JuedymQlUyo1w9D6Xd#lCIfAG)
-- [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
 
 
 mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、MySQL 安全、分库分表、读写分离、MySQL 操作规范等
@@ -98,18 +98,34 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [聊聊主键](docs/database/MySQL/mysql-primary-key.md)
 - [MySQL 那些常见的错误设计规范](https://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653585806&idx=1&sn=5e00837028440d41bea2e35dcee2d215&chksm=bd1b15068a6c9c101e1d3d1e8a74219fa696a475017b91cc4b5f8388b90596c0663f13fa1ae4&mpshare=1&scene=2&srcid=0709WZNZPqskWXlsHZJ3T5uX&sharer_sharetime=1625827270022&sharer_shareid=a9f162b83d3be451174be9ec97298b2b#rd)
 
+**设计与使用**
+- [MySQL 中存储时间的最佳实践](https://www.upyun.com/tech/article/652/MySQL%20%E4%B8%AD%E5%AD%98%E5%82%A8%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.html)
+- [开发与设计规范](docs/database/MySQL/开发与设计规范.md)
+- [一些错误的设计规范](https://xjip3se76o.feishu.cn/docs/doccn6NpsRQDvzmcXb2oEqV3vee)
+- [把mysql当成nosql使用](https://xjip3se76o.feishu.cn/docs/doccnn15sICaevRBvy99h21fVBc)
+
 **总结：**
 
-- [开发与设计规范](docs/database/MySQL/开发与设计规范.md)
 - [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe), [mvcc](docs/database/MySQL/mvcc.md)
 - [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
 - [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
-- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)
+- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)，[索引总结2](https://xjip3se76o.feishu.cn/docs/doccnmlh4wJR7RlNN8QsmIk8IVr)
 - 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md), [意向锁、排它锁以及共享锁]()
+
+**日志文件**
+- [binlog](https://xjip3se76o.feishu.cn/docs/doccnoG4mp3cGrEDKHSGbI7e3dg)
+- [redo log](https://xjip3se76o.feishu.cn/docs/doccn4C4wL63WUsSdnPSxYik3We)
+- [undo log](https://xjip3se76o.feishu.cn/docs/doccnUL36FWaKgni0yUE5e8jJxf)
+
+**InnoDB 数据存储**
+- [行格式](https://xjip3se76o.feishu.cn/docs/doccn8V3i3yekKBJlao9KiKJKye)
+- [数据页结构](docs/database/MySQL/innodb-page.md)
+- [内存结构](https://xjip3se76o.feishu.cn/docs/doccnFVu43rXnFyjFiYD2j7A66d)
+- [磁盘结构](https://xjip3se76o.feishu.cn/docs/doccnL3r6wkI24PNEgIop1BNZAg)
 
 **sql优化**
 
-- [分析SQL执行效率](https://www.yuque.com/docs/share/52941483-0e31-4665-a371-2b52e2febe66), [执行效率分析](docs/database/MySQL/执行效率分析.md)
+- [分析SQL执行效率](https://www.yuque.com/docs/share/52941483-0e31-4665-a371-2b52e2febe66), [执行效率分析](docs/database/MySQL/执行效率分析.md)，[explain](https://xjip3se76o.feishu.cn/docs/doccnJBn2mQrQEIZth7xlwkUg1e)
 - [优化count](docs/database/MySQL/优化count.md)
 - [优化分页查询](docs/database/MySQL/优化分页查询.md)
 - [join原理](docs/database/MySQL/mysql-join.md), [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
@@ -124,7 +140,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **设计与实现**
 - [为什么MySQL使用B+Tree](docs/database/MySQL/为什么MySQL使用B+Tree.md)
-- [InnoDB 数据页结构](docs/database/MySQL/innodb-page.md)
 - [InnoDB WAL](docs/database/MySQL/innodb-wal.md)
 - [InnoDB group commit](docs/database/MySQL/innodb-group-commit.md)
 - [InnoDB undo log 与 mvcc](docs/database/MySQL/innodb-undo-log-and-mvcc.md)
@@ -137,18 +152,23 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [缓存数据一致性](docs/database/Redis/缓存更新策略.md)
 - [7大缓存经典问题](https://xjip3se76o.feishu.cn/docs/doccnnQ3isgYklfKQqSvxaFWmAh)
 
+--
+
 - [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)，[学习资料推荐](https://xjip3se76o.feishu.cn/docs/doccnPKZHMNHqnychGUCrwS6fXc)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
 - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
 - [零碎知识点](docs/database/Redis/零碎知识点.md)
 - [Redis单线程与多线程](https://xjip3se76o.feishu.cn/docs/doccn8OCWaPKKv6Wx2xJHxriXtd)
+- [Resp](https://xjip3se76o.feishu.cn/docs/doccncKmo98UNh0PKnCHvHVpBkf)
 
 **数据结构**
-- [五种基础数据结构](https://lrita.github.io/2019/03/13/the-internal-of-file-syscall/#fsyncfdatasync)
+<!-- - [五种基础数据结构](https://lrita.github.io/2019/03/13/the-internal-of-file-syscall/#fsyncfdatasync) -->
+- [五种基础数据结构](https://xjip3se76o.feishu.cn/docs/doccnYVIAWxerOZDyCH5aG36psd)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
 
 **持久化**
+
 记住：持久化的目的是为了重启时快速恢复数据
 - [持久化简介](https://xjip3se76o.feishu.cn/docs/doccnMeJBkpmpabnlyModXbJHcg)
 - [AOF](https://xjip3se76o.feishu.cn/docs/doccnW6NiitQBCw2bVahUo48wnb)，[AOF重写](https://xjip3se76o.feishu.cn/docs/doccn1yGrTMNSgA5FDqqBkt4iih)
@@ -166,6 +186,12 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
 - [使用Redis实现防止超卖的方法](docs/database/Redis/使用Redis实现防止超卖的方法.md)
+
+### 其它缓存
+- todo: [pika](#)
+
+### memcached
+- todo: [简介](#)
 
 ### Elasticsearch
 

@@ -12,8 +12,7 @@ JMS，兼容JMS协议。目前RabbitMQ主流支持AMQP 0-9-1，3.8.4版本支持
 - Server：一个具体的MQ服务实例，也称为Broker。
 - Virtual host：虚拟主机，一个Server下可以有多个虚拟主机，用于隔离不同项目，一个Virtual host通常包含多个Exchange、Message Queue。
 - Exchange：交换器，接收Producer发送来的消息，把消息转发到对应的Message Queue中。
-- Routing key：路由键，用于指定消息路由规则（Exchange将消息路由到具体的queue中），通
-- 常需要和具体的Exchange类型、Binding的Routing key结合起来使用。
+- Routing key：路由键，用于指定消息路由规则（Exchange将消息路由到具体的queue中），通常需要和具体的Exchange类型、Binding的Routing key结合起来使用。
 - Bindings：指定了Exchange和Queue之间的绑定关系。Exchange根据消息的Routing key和
 - Binding配置（绑定关系、Binding、Routing key等）来决定把消息分派到哪些具体的queue中。这依赖于Exchange类型。
 - Message Queue：实际存储消息的容器，并把消息传递给最终的Consumer。

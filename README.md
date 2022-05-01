@@ -38,7 +38,7 @@
   - [分布式限流](#分布式限流)
 - [必会工具](#必会工具)
   - [Git](#Git)
-- [实战文章](#实战文章)
+- [系统设计](#系统设计)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
 - [待办](#待办)
@@ -198,8 +198,14 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [es入门](docs/es/es简介.md)
 - [安装与配置](docs/es/es-install-config.md)
 - [索引基本操作](docs/es/索引基本操作.md)
-- [文档基本操作](docs/es/文档基本操作.md)
+- [文档基本操作](https://xjip3se76o.feishu.cn/docs/doccn9LvZ8QYW45mF76GYrFPAwb)
 - [mapping](docs/es/mapping.md)
+
+**搜索**
+- [全文检索](https://xjip3se76o.feishu.cn/docs/doccnLWrq8ZCaE2Hous06b5wAuc)
+- [term精确搜索](https://xjip3se76o.feishu.cn/docs/doccnrIWBqaG1y1HpLNo9NDLX2Y)
+
+--
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
 
@@ -286,7 +292,7 @@ todo
 
 ### etcd
 
-- [etcd简介](docs/Docker/etcd.md)
+- [etcd简介](https://xjip3se76o.feishu.cn/docs/doccnzyWADqitACeRpDPRxxE4Kc)
 
 <!-- ### Kubernetes -->
 
@@ -338,10 +344,10 @@ todo
 
 - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
 
-## 实战文章
+## 系统设计
 - [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
-- [实现一个短网址系统](docs/practice/short-url.md)
+- [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
 
 ## 面试指南
 

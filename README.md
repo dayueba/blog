@@ -6,13 +6,13 @@
 ## 目录
 - [学习方法](#学习方法)
 - [编程语言](#编程语言)
-  - [Python](#Python)
-  - [JavaScript](#JavaScript)
+  - [JavaScript & Node](#JavaScript)
   - [Go](#Go)
+  - [Python](#Python)
 - [数据库](#数据库)
   - [MySQL](#MySQL)
   - [Redis](#Redis)
-  - [Memcached](#memcached)
+  <!-- - [Memcached](#memcached) -->
   - [Elasticsearch](#Elasticsearch)
   - [MongoDB](#MongoDB)
 - [消息队列](#消息队列)
@@ -22,10 +22,10 @@
   - [数据结构](#数据结构)
   - [算法](#算法)
   - [网络](#网络)
-  - [操作系统](#操作系统)
-  - [计算机组成原理](#计算机组成原理)
+  <!-- - [操作系统](#操作系统) -->
+  <!-- - [计算机组成原理](#计算机组成原理)
   - [概率论](#概率论)
-  - [统计学](#统计学)
+  - [统计学](#统计学) -->
 - [设计模式](#设计模式)
 - [云原生](#云原生)
   - [Docker](#Docker)
@@ -35,7 +35,6 @@
   - [认证授权](#认证授权)
 - [分布式](#分布式)
   - [RPC](#RPC)
-  - [分布式限流](#分布式限流)
 - [必会工具](#必会工具)
   - [Git](#Git)
 - [系统设计](#系统设计)
@@ -49,14 +48,6 @@
 - [总结的一些学习方法以及一些好的习惯](https://xjip3se76o.feishu.cn/mindnotes/bmncniLbhid2PubMtdOEIwon2Jc)
 
 ## 编程语言
-
-### Python
-
-<!-- - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B) -->
-- todo: [装饰器]()
-
-新特性
-- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
 
 ### JavaScript
 
@@ -80,6 +71,16 @@
 
 - [注意的点](https://xjip3se76o.feishu.cn/docs/doccnJPTeCDiI01jvDMAoYDWqSe)
 - [error](https://xjip3se76o.feishu.cn/docs/doccnxU4HTdnOq33vaBdxqHfDPd)
+
+
+### Python
+
+<!-- - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B) -->
+- todo: [装饰器]()
+
+新特性
+- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
+
 
 ## 数据库
 
@@ -190,8 +191,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### 其它缓存
 - todo: [pika](#)
 
-### memcached
-- todo: [简介](#)
+<!-- ### memcached -->
+<!-- - todo: [简介](#) -->
 
 ### Elasticsearch
 
@@ -264,21 +265,13 @@ todo
 
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
 
-### 操作系统
+<!-- ### 操作系统 -->
 
-[最硬核的操作系统常见问题总结！](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/basis)
-
-
-<!-- #### Linux -->
-
-<!-- 1. [后端程序员必备的 Linux 基础知识](https://snailclimb.gitee.io/javaguide/#/docs/operating-system/linux) -->
-
-
-### 计算机组成原理
+<!-- ### 计算机组成原理
 
 ### 概率论
 
-### 统计学
+### 统计学 -->
 
 ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
@@ -332,11 +325,6 @@ todo
 - [消息协议](docs/rpc/message.md)
 - [protobuf与grpc](docs/rpc/protobuf&grpc.md)
 
-### 分布式限流
-
-1. [限流算法有哪些?](https://snailclimb.gitee.io/javaguide/#/docs/system-design/micro-service/limit-request)
-
-
 
 ## 必会工具
 
@@ -348,6 +336,7 @@ todo
 - [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
+- [限流器](https://xjip3se76o.feishu.cn/docs/doccnAgcUQRx3HRc2Ac37CFYSlh)
 
 ## 面试指南
 

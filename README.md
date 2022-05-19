@@ -229,7 +229,7 @@ todo
 ### RabbitMQ
 - [AMQP协议](docs/MQ/amqp.md)
 - [RabbitMQ 入门](https://xjip3se76o.feishu.cn/docs/doccn725GpfoylHyz4ZXjkVx0jd)
-- [RabbitMQ数据存储](docs/MQ/rabbitmq-data-store.md)
+- [RabbitMQ存储机制](https://xjip3se76o.feishu.cn/docs/doccnW3NCL6iAhgsHIEQJmVEZ8c)
 - [ttl机制](https://xjip3se76o.feishu.cn/docs/doccntQ6Lr9wvDepytGvDqfcPdc)
 - [配置文件](https://upyun.feishu.cn/docs/doccnXFypkaCHSjhyiZQOHSTCUh)
 - [connection和channel的关系](https://xjip3se76o.feishu.cn/docs/doccnleNUhJqsUN2KUtSU9Zv3he)

@@ -241,7 +241,7 @@ todo
 
 - [Kafka入门](docs/MQ/kafka-入门.md)
 - [基本概念](docs/MQ/kafka/基本概念.md)
-- [常用配置](docs/MQ/kafka/配置文件.md)
+- [常用配置](https://xjip3se76o.feishu.cn/docs/doccn0BcJhDA0fFtkuAJ5GRhVke)
 - [基本操作](docs/MQ/kafka/基本操作.md)
 
 ## 计算机基础

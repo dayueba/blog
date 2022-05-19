@@ -110,7 +110,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [事务](https://xjip3se76o.feishu.cn/docs/doccne4DKKKmA0Tpad2SPhjEnPe), [mvcc](docs/database/MySQL/mvcc.md)
 - [存储引擎](https://xjip3se76o.feishu.cn/docs/doccnDM66eaPlUOzaPo5SVptJLf)
 - [一条SQL语句在MySQL中如何执行的](docs/database/MySQL/一条sql语句在mysql中如何执行的.md)
-- 索引：[数据库索引总结](docs/database/MySQL/index.md), [索引实战](docs/database/MySQL/索引实战.md)，[索引总结2](https://xjip3se76o.feishu.cn/docs/doccnmlh4wJR7RlNN8QsmIk8IVr)
+- 索引：[索引实战](docs/database/MySQL/索引实战.md)，[索引总结2](https://xjip3se76o.feishu.cn/docs/doccnmlh4wJR7RlNN8QsmIk8IVr)
 - 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md), [意向锁、排它锁以及共享锁]()
 
 **日志文件**

@@ -35,7 +35,6 @@
 - [分布式](#分布式)
   - [RPC](#RPC)
 - [必会工具](#必会工具)
-  - [Git](#Git)
 - [系统设计](#系统设计)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
@@ -279,35 +278,30 @@ todo
 
 ## 系统设计
 
-### 攻击技术
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
-
-
-## 分布式
-
-- [服务注册与发现](https://xjip3se76o.feishu.cn/docs/doccna6XCw1IcnwiqFMB37QCaCd)
-- [zookeeper入门](https://xjip3se76o.feishu.cn/docs/doccnzDT13vhdwntLesvvVDF4Cd)
-- [配置中心](https://xjip3se76o.feishu.cn/docs/doccnp7KjzUeyUIrl9ARj2aKXC9)
-<!-- - []() -->
-
-### RPC
-
-- [rpc简介](docs/rpc/intro.md)
-- [消息协议](docs/rpc/message.md)
-- [protobuf与grpc](docs/rpc/protobuf&grpc.md)
-
-
-## 必会工具
-
-### Git
-
-- [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
-
-## 系统设计
 - [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
 - [限流器](https://xjip3se76o.feishu.cn/docs/doccnAgcUQRx3HRc2Ac37CFYSlh)
+
+
+
+## 分布式
+
+- 微服务组件
+  - [服务注册与发现](https://xjip3se76o.feishu.cn/docs/doccna6XCw1IcnwiqFMB37QCaCd)
+  - [zookeeper入门](https://xjip3se76o.feishu.cn/docs/doccnzDT13vhdwntLesvvVDF4Cd)
+  - [配置中心](https://xjip3se76o.feishu.cn/docs/doccnp7KjzUeyUIrl9ARj2aKXC9)
+- RPC
+  - [rpc简介](docs/rpc/intro.md)
+  - [消息协议](docs/rpc/message.md)
+  - [protobuf与grpc](docs/rpc/protobuf&grpc.md)
+
+## 必会工具
+
+- git
+  - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
+
 
 ## 面试指南
 

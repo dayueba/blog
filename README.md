@@ -1,9 +1,9 @@
 # blog
-这是我的个人博客主页
-
-记录自己写的博客以及推荐一些学习资料，希望大家都能成为优秀的程序员。
+这里是我的个人博客，与大多数程序员写博客的目的一样，总结自己所学的知识和记录一下学习过程中遇到的问题，提高自己的能力，卷起来！
 
 ## 目录
+- [博客说明(重要！！！)](#说明)
+- [changelog](#changelog)
 - [学习方法](#学习方法)
 - [编程语言](#编程语言)
   - [JavaScript & Node](#JavaScript)
@@ -32,7 +32,6 @@
   - [etcd](#etcd)
   <!-- - [Kubernetes](#Kubernetes) -->
 - [系统设计](#系统设计)
-  - [认证授权](#认证授权)
 - [分布式](#分布式)
   - [RPC](#RPC)
 - [必会工具](#必会工具)
@@ -41,7 +40,6 @@
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
 - [待办](#待办)
-- [说明](#说明)
 
 ## 学习方法
 
@@ -85,8 +83,6 @@
 ## 数据库
 
 ### MySQL
-
-- [学习资料推荐](https://www.yuque.com/docs/share/533eeaef-1f2c-4518-ba00-e33fc9df286a)
 
 基础：
 - [MySQL8.0新特性](https://xjip3se76o.feishu.cn/docs/doccnEzv7JuedymQlUyo1w9D6Xd#lCIfAG)
@@ -288,21 +284,6 @@ todo
 ### 攻击技术
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
 
-### 认证授权
-
-**[认证授权基础:搞清Authentication,Authorization以及Cookie、Session、Token、OAuth 2、SSO](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/basis-of-authority-certification)**
-
-**jwt**
-
-- **[JWT 优缺点分析以及常见问题解决方案](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/JWT-advantages-and-disadvantages)**
-
-**SSO(单点登录)**
-
-SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中一个就有权访问与其相关的其他系统。举个例子我们在登陆了京东金融之后，我们同时也成功登陆京东的京东超市、京东家电等子系统。相关阅读：**[SSO 单点登录看这篇就够了！](https://snailclimb.gitee.io/javaguide/#/docs/system-design/authority-certification/sso)**
-
-**OAuth2**
-
-todo
 
 ## 分布式
 
@@ -347,15 +328,24 @@ todo
 ## 待办
 
 ## 说明
+- 想法来源于此项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/) 。可以参考这篇文章搭建类似的网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
+- 为什么没有这样像其他大佬一样，买服务器，买域名，单独部署呢？
+  - 目前这样最大的好处就是免费！刚开始我们写作大部分就是为了总结一下自己学到的知识，大概率是没什么人看的，所以前期花费金钱去买服务器显得没有那么划算。
+- 为什么大部分文章都是用飞书文档写的？
+  - 虽然使用 docsify 文章更好看，比飞书文档好看多了，飞书文档功能很多，但是真的挺丑的。
+  - 但是使用飞书文档的一个重要好处就是可以评论文档，写博客最好还是支持一下评论，不然万一别人有问题，人家需要加你微信才能问你，这样显然显得非常麻烦
+  - 类似的还有语雀，但是由于工作使用的办公软件是飞书，所以就用飞书文档了
+  - 直接md文档还有一个问题，部署的时候容易审核过不去，重点是只告诉你哪个文档有问题，没有更详细的信息，修改起来很麻烦
+- 可能的侵权问题
+  - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
 
-想法来源于项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
-
-搭建类似文档类型网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 
-
-推荐写作网站：[语雀](https://www.yuque.com/)，飞书文档
+## changelog
+- 2022-08-22
+  - 删除一些认为质量较低的博客
+  - 修改主页，修改一些描述，删除一些失效连接
 
 ### 关于我
 
 这是我看的一些和编程无关，但是对自身发展有用的书，并总结了相应的笔记，推荐大家看看：[地址](https://xjip3se76o.feishu.cn/docs/doccnctBNWVnDHBhSP1ShlQxDHc)
 
-GO+NODE后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）
+Go+Node.js后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）

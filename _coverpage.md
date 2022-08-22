@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">我的blog</h1>
 
-[Gitee](https://gitee.com/lovePenny/blog)
+[Gitee](https://gitee.com/dayueba/blog)
 [开始阅读](#blog)
 
 

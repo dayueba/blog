@@ -126,14 +126,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **sql优化**
 
-- [分析SQL执行效率](https://www.yuque.com/docs/share/52941483-0e31-4665-a371-2b52e2febe66), [执行效率分析](docs/database/MySQL/执行效率分析.md)，[explain](https://xjip3se76o.feishu.cn/docs/doccnJBn2mQrQEIZth7xlwkUg1e)
-- [优化count](docs/database/MySQL/优化count.md)
-- [优化分页查询](docs/database/MySQL/优化分页查询.md)
-- [join原理](docs/database/MySQL/mysql-join.md), [优化join](https://www.yuque.com/docs/share/214278dd-1a07-425e-8796-5d7b58a47a7f)
-- [优化数据插入](https://www.yuque.com/docs/share/80d352c0-f621-4b8e-b419-966adb71d71b)
-- [优化order by 与 group by](https://www.yuque.com/docs/share/e67300c8-a44b-487b-9e6a-62e14cd04190)
-- [优化order by](docs/database/MySQL/order_by.md)
-<!-- - [整体优化思路]() -->
 
 **高可用：**
 

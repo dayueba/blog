@@ -22,10 +22,6 @@
   - [数据结构](#数据结构)
   - [算法](#算法)
   - [网络](#网络)
-  <!-- - [操作系统](#操作系统) -->
-  <!-- - [计算机组成原理](#计算机组成原理)
-  - [概率论](#概率论)
-  - [统计学](#统计学) -->
 - [设计模式](#设计模式)
 - [云原生](#云原生)
   - [Docker](#Docker)
@@ -35,7 +31,9 @@
 - [必会工具](#必会工具)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
-- [待办](#待办)
+- [待学习](#待学习)
+- [关于我](#关于我)
+- [放松一下](#放松一下)
 
 ## 学习方法
 
@@ -306,15 +304,15 @@ todo
 2. [个人面试经验](docs/essential-content-for-interview/interview.md)
 
 ## 学习资源
-
-- [我star的所有仓库](https://github.com/dayueba?tab=stars)
 - [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
-
-推荐的学习资源
 - [互联网 Java 工程师进阶知识完全扫盲](https://doocs.gitee.io/advanced-java/)
 - [Psyduck](https://github.com/SmartKeyerror/Psyduck)
 
-## 待办
+## 待学习
+- 操作系统
+- 计算机组成原理
+- 概率论]
+- 统计学
 
 ## 说明
 - 想法来源于此项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/) 。可以参考这篇文章搭建类似的网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
@@ -335,8 +333,11 @@ todo
   - 修改主页，修改一些描述，删除一些失效连接
   - 增加go_数据结构 文章
 
-### 关于我
+## 关于我
 
 这是我看的一些和编程无关，但是对自身发展有用的书，并总结了相应的笔记，推荐大家看看：[地址](https://xjip3se76o.feishu.cn/docs/doccnctBNWVnDHBhSP1ShlQxDHc)
 
 Go+Node.js后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）
+
+## 放松一下
+推荐一些个人觉得好看的书，好玩的游戏以及各种有趣的东西

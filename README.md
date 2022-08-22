@@ -48,32 +48,30 @@
 ## 编程语言
 
 ### JavaScript
-
-- [数据类型](docs/js/数据类型.md)
-- [深拷贝与浅拷贝](docs/js/深拷贝与浅拷贝.md)
-- [闭包](docs/js/闭包.md)
-- [JS 内存管理机制](docs/js/JS内存管理机制.md)
-- [promise详解](docs/js/promise.md)
-
-**TypeScript**: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
-- [TypeScript](docs/js/typescript.md)
-- [类型](docs/js/ts/类型.md)
-
-**Nodejs**
-
-- [Nodejs入门](docs/js/nodejs/node.md)
-- [Node事件循环机制](docs/js/事件循环机制.md)
-- todo: [Buffer和stream模块]()
+- js
+  - [数据类型](docs/js/数据类型.md)
+  - [深拷贝与浅拷贝](docs/js/深拷贝与浅拷贝.md)
+  - [闭包](docs/js/闭包.md)
+  - [JS 内存管理机制](docs/js/JS内存管理机制.md)
+  - [promise详解](docs/js/promise.md)
+- ts: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
+  - [TypeScript](docs/js/typescript.md)
+  - [类型](docs/js/ts/类型.md)
+- Node.js
+  - [Nodejs入门](docs/js/nodejs/node.md)
+  - [Node事件循环机制](docs/js/事件循环机制.md)
 
 ### Go
 
 - [注意的点](https://xjip3se76o.feishu.cn/docs/doccnJPTeCDiI01jvDMAoYDWqSe)
 - [error](https://xjip3se76o.feishu.cn/docs/doccnxU4HTdnOq33vaBdxqHfDPd)
+- 数据结构
+  - [切片和数组](https://xjip3se76o.feishu.cn/wiki/wikcnFg1jzo0hRVon704K8TdBYc)
+  - [channel](https://xjip3se76o.feishu.cn/wiki/wikcnJvxiKIojsPmj6yagSkEJ6d)
 
 
 ### Python
 
-<!-- - [我的Python文章合集](https://www.yuque.com/u1169619/kb2a00#%20%E3%80%8APython%E3%80%8B) -->
 - todo: [装饰器]()
 
 新特性
@@ -336,6 +334,7 @@ todo
   - 但是使用飞书文档的一个重要好处就是可以评论文档，写博客最好还是支持一下评论，不然万一别人有问题，人家需要加你微信才能问你，这样显然显得非常麻烦
   - 类似的还有语雀，但是由于工作使用的办公软件是飞书，所以就用飞书文档了
   - 直接md文档还有一个问题，部署的时候容易审核过不去，重点是只告诉你哪个文档有问题，没有更详细的信息，修改起来很麻烦
+  - 使用飞书文档坏处也是挺明显，就是通过搜索引擎是无法搜到你的文章的
 - 可能的侵权问题
   - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
 
@@ -343,6 +342,7 @@ todo
 - 2022-08-22
   - 删除一些认为质量较低的博客
   - 修改主页，修改一些描述，删除一些失效连接
+  - 增加go_数据结构 文章
 
 ### 关于我
 

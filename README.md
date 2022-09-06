@@ -8,32 +8,31 @@
 - [编程语言](#编程语言)
   - [JavaScript & Node](#JavaScript)
   - [Go](#Go)
-  - [Python](#Python)
 - [数据库](#数据库)
   - [MySQL](#MySQL)
   - [Redis](#Redis)
-  <!-- - [Memcached](#memcached) -->
   - [Elasticsearch](#Elasticsearch)
-  - [MongoDB](#MongoDB)
 - [消息队列](#消息队列)
   - [RabbitMQ](#RabbitMQ)
   - [Kafka](#Kafka)
-- [计算机基础](#计算机基础)
-  - [数据结构](#数据结构)
-  - [算法](#算法)
-  - [网络](#网络)
-- [设计模式](#设计模式)
-- [云原生](#云原生)
-  - [Docker](#Docker)
-  - [etcd](#etcd)
 - [系统设计](#系统设计)
-- [分布式](#分布式)
-- [必会工具](#必会工具)
+- [微服务](#微服务)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
-- [待学习](#待学习)
 - [关于我](#关于我)
 - [放松一下](#放松一下)
+
+<!-- - [计算机基础](#计算机基础)
+  - [数据结构](#数据结构)
+  - [算法](#算法)
+  - [网络](#网络) -->
+<!-- - [设计模式](#设计模式) -->
+<!-- - [必会工具](#必会工具) -->
+  <!-- - [MongoDB](#MongoDB) -->
+  <!-- - [云原生](#云原生)
+  - [Docker](#Docker)
+  - [etcd](#etcd) -->
+<!-- - [Python](#Python) -->
 
 ## 学习方法
 
@@ -62,14 +61,15 @@
 - 数据结构
   - [切片和数组](https://xjip3se76o.feishu.cn/wiki/wikcnFg1jzo0hRVon704K8TdBYc)
   - [channel](https://xjip3se76o.feishu.cn/wiki/wikcnJvxiKIojsPmj6yagSkEJ6d)
+  - [map](https://xjip3se76o.feishu.cn/wiki/wikcn2iP5uc5pvexhSq35JjU6ed)
 
 
-### Python
+<!-- ### Python
 
 - todo: [装饰器]()
 
 新特性
-- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf)
+- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf) -->
 
 
 ## 数据库
@@ -168,8 +168,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
 - [使用Redis实现防止超卖的方法](docs/database/Redis/使用Redis实现防止超卖的方法.md)
 
-### 其它缓存
-- todo: [pika](#)
+<!-- ### 其它缓存
+- todo: [pika](#) -->
 
 <!-- ### memcached -->
 <!-- - todo: [简介](#) -->
@@ -190,12 +190,12 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
 
-### MongoDB
+<!-- ### MongoDB
 
 **基础知识：**
 
 todo
-- [高可用]()
+- [高可用]() -->
 
 ## 消息队列
 
@@ -224,7 +224,7 @@ todo
 - [常用配置](https://xjip3se76o.feishu.cn/docs/doccn0BcJhDA0fFtkuAJ5GRhVke)
 - [基本操作](docs/MQ/kafka/基本操作.md)
 
-## 计算机基础
+<!-- ## 计算机基础
 
 ### 数据结构
 我的[github代码仓库](https://github.com/dayueba/DA)，用GO和JS实现常见的数据结构与算法，并有相应的笔记
@@ -251,25 +251,11 @@ todo
 
 ### 概率论
 
-### 统计学 -->
+### 统计学 --> -->
 
-## 设计模式
+<!-- ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
-- [函数式编程](docs/FunctionalProgramming/FunctionalProgramming.md)
-
-## 云原生
-
-### Docker
-
-- [Docker入门](docs/Docker/docker.md)
-
-### etcd
-
-- [etcd简介](https://xjip3se76o.feishu.cn/docs/doccnzyWADqitACeRpDPRxxE4Kc)
-
-<!-- ### Kubernetes -->
-
-
+- [函数式编程](docs/FunctionalProgramming/FunctionalProgramming.md) -->
 
 ## 系统设计
 
@@ -281,7 +267,7 @@ todo
 
 
 
-## 分布式
+## 微服务
 
 - 微服务组件
   - [服务注册与发现](https://xjip3se76o.feishu.cn/docs/doccna6XCw1IcnwiqFMB37QCaCd)
@@ -291,43 +277,52 @@ todo
   - [rpc简介](docs/rpc/intro.md)
   - [消息协议](docs/rpc/message.md)
   - [protobuf与grpc](docs/rpc/protobuf&grpc.md)
+- 云原生
+  - [Docker入门](docs/Docker/docker.md)
+  - [etcd简介](https://xjip3se76o.feishu.cn/docs/doccnzyWADqitACeRpDPRxxE4Kc)
 
-## 必会工具
+<!-- ## 必会工具
 
 - git
-  - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb)
+  - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb) -->
 
 
 ## 面试指南
 
 1. [简历编写](docs/essential-content-for-interview/简历编写.md)
 2. [个人面试经验](docs/essential-content-for-interview/interview.md)
+3. [毛老师教你如何搞定面试](https://xjip3se76o.feishu.cn/docx/doxcndCat0MkUtJKUq5V5SQ6N6C)
 
 ## 学习资源
+- [学习资料推荐](https://xjip3se76o.feishu.cn/mindnotes/bmncnh1mneKcbqrx45SuUDow0af)
 - [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
 - [互联网 Java 工程师进阶知识完全扫盲](https://doocs.gitee.io/advanced-java/)
 - [Psyduck](https://github.com/SmartKeyerror/Psyduck)
 
-## 待学习
+<!-- ## 待学习
 - 操作系统
 - 计算机组成原理
-- 概率论]
-- 统计学
+- 概率论
+- 统计学 -->
 
 ## 说明
 - 想法来源于此项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/) 。可以参考这篇文章搭建类似的网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
 - 为什么没有这样像其他大佬一样，买服务器，买域名，单独部署呢？
-  - 目前这样最大的好处就是免费！刚开始我们写作大部分就是为了总结一下自己学到的知识，大概率是没什么人看的，所以前期花费金钱去买服务器显得没有那么划算。
+  - 目前这样最大的好处就是免费！刚开始我们写博客主要目的只是为了总结一下自己学到的知识，大概率是没什么人看的，所以前期花费金钱去买服务器显得没有那么划算。
 - 为什么大部分文章都是用飞书文档写的？
-  - 虽然使用 docsify 文章更好看，比飞书文档好看多了，飞书文档功能很多，但是真的挺丑的。
-  - 但是使用飞书文档的一个重要好处就是可以评论文档，写博客最好还是支持一下评论，不然万一别人有问题，人家需要加你微信才能问你，这样显然显得非常麻烦
+  - 虽然 docsify 框架渲染的文章更好看，比飞书文档好看多了，虽然飞书文档功能很多，但是是真的丑。
+  - 但是使用飞书文档的一个重要好处就是可以评论文档，写博客最好还是支持一下评论，不然万一别人有问题，人家需要加你微信才能问你，除非你文章写的特别好，不然大部分人是不会加你的。没有评论区，写博客会有点自嗨的感觉。
   - 类似的还有语雀，但是由于工作使用的办公软件是飞书，所以就用飞书文档了
-  - 直接md文档还有一个问题，部署的时候容易审核过不去，重点是只告诉你哪个文档有问题，没有更详细的信息，修改起来很麻烦
-  - 使用飞书文档坏处也是挺明显，就是通过搜索引擎是无法搜到你的文章的
+  - 直接md文档还有一个问题，部署的时候容易审核过不去（用github部署应该没问题，但是国内访问慢），重点是只告诉你哪个文档有问题，没有更详细的信息，修改起来很麻烦
+  - 学习过程中可能有想补充的可以立马写到飞书文档里，如果直接写MD，还需要推送到仓库，再重新部署，麻烦
 - 可能的侵权问题
   - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
 
 ## changelog
+- 2022-09-06
+  - 修改主页描述，删除大量低质量文章
+- 2022-08-23
+  - 增加go数据结构map文章
 - 2022-08-22
   - 删除一些认为质量较低的博客
   - 修改主页，修改一些描述，删除一些失效连接

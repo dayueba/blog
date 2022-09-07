@@ -17,6 +17,7 @@
   - [Kafka](#Kafka)
 - [系统设计](#系统设计)
 - [微服务](#微服务)
+- [计算机基础](#计算机基础)
 - [面试指南](#面试指南)
 - [学习资源](#学习资源)
 - [关于我](#关于我)
@@ -130,7 +131,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **缓存**
 - [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1)
-- [缓存数据一致性](docs/database/Redis/缓存更新策略.md)
+<!-- - [缓存数据一致性](docs/database/Redis/缓存更新策略.md) -->
+- [缓存数据一致性](https://xjip3se76o.feishu.cn/docx/doxcnRafKPJ1lYFtm5iiGDfWVRc)
 - [7大缓存经典问题](https://xjip3se76o.feishu.cn/docs/doccnnQ3isgYklfKQqSvxaFWmAh)
 
 --
@@ -258,21 +260,22 @@ todo
 - [函数式编程](docs/FunctionalProgramming/FunctionalProgramming.md) -->
 
 ## 系统设计
+工程能力
 
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
 - [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
-- [限流器](https://xjip3se76o.feishu.cn/docs/doccnAgcUQRx3HRc2Ac37CFYSlh)
-
-
+- [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
+<!-- - [重构](https://xjip3se76o.feishu.cn/docx/doxcnISkL1wbh4dtAOue2Wfgs6b) -->
 
 ## 微服务
 
-- 微服务组件
+- 微服务治理
   - [服务注册与发现](https://xjip3se76o.feishu.cn/docs/doccna6XCw1IcnwiqFMB37QCaCd)
   - [zookeeper入门](https://xjip3se76o.feishu.cn/docs/doccnzDT13vhdwntLesvvVDF4Cd)
   - [配置中心](https://xjip3se76o.feishu.cn/docs/doccnp7KjzUeyUIrl9ARj2aKXC9)
+  - [过载保护/限流/熔断](https://xjip3se76o.feishu.cn/wiki/wikcnRaVLjH67npX4rB9ZWrsZnh)
 - RPC
   - [rpc简介](docs/rpc/intro.md)
   - [消息协议](docs/rpc/message.md)
@@ -286,6 +289,8 @@ todo
 - git
   - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb) -->
 
+## 计算机基础
+- [网络IO模型](https://xjip3se76o.feishu.cn/docx/doxcnp7jIh58xLsadhkNHKWpMOh)
 
 ## 面试指南
 
@@ -319,6 +324,8 @@ todo
   - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
 
 ## changelog
+- 2022-09-07
+  - 增加几篇飞书文档中的文章
 - 2022-09-06
   - 修改主页描述，删除大量低质量文章
 - 2022-08-23

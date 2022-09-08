@@ -57,13 +57,16 @@
 
 ### Go
 
-- [注意的点](https://xjip3se76o.feishu.cn/docs/doccnJPTeCDiI01jvDMAoYDWqSe)
-- [error](https://xjip3se76o.feishu.cn/docs/doccnxU4HTdnOq33vaBdxqHfDPd)
 - 数据结构
   - [切片和数组](https://xjip3se76o.feishu.cn/wiki/wikcnFg1jzo0hRVon704K8TdBYc)
   - [channel](https://xjip3se76o.feishu.cn/wiki/wikcnJvxiKIojsPmj6yagSkEJ6d)
   - [map](https://xjip3se76o.feishu.cn/wiki/wikcn2iP5uc5pvexhSq35JjU6ed)
-
+- runtime
+  - [GMP](https://xjip3se76o.feishu.cn/wiki/wikcnsb57fiHgpYySiaW5XVAmgb)
+  - [GC](https://xjip3se76o.feishu.cn/wiki/wikcnTosMFf6NSUxT5MOng29rad)
+- 并发
+  - [goroutine](https://xjip3se76o.feishu.cn/wiki/wikcnAAPUirTrjeiDDRhCPLHOGc)
+  - [SingleFlight](https://xjip3se76o.feishu.cn/wiki/wikcn1FHGexi9CTLPDpAFaNc76d)
 
 <!-- ### Python
 
@@ -324,6 +327,8 @@ todo
   - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
 
 ## changelog
+- 2022-09-08
+  - 增加go相关文章
 - 2022-09-07
   - 增加几篇飞书文档中的文章
 - 2022-09-06

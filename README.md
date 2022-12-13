@@ -19,21 +19,7 @@
 - [微服务](#微服务)
 - [计算机基础](#计算机基础)
 - [面试指南](#面试指南)
-- [学习资源](#学习资源)
 - [关于我](#关于我)
-- [放松一下](#放松一下)
-
-<!-- - [计算机基础](#计算机基础)
-  - [数据结构](#数据结构)
-  - [算法](#算法)
-  - [网络](#网络) -->
-<!-- - [设计模式](#设计模式) -->
-<!-- - [必会工具](#必会工具) -->
-  <!-- - [MongoDB](#MongoDB) -->
-  <!-- - [云原生](#云原生)
-  - [Docker](#Docker)
-  - [etcd](#etcd) -->
-<!-- - [Python](#Python) -->
 
 ## 学习方法
 
@@ -74,14 +60,6 @@
   - [sync包](https://xjip3se76o.feishu.cn/wiki/wikcnaQgU9TuCi1IOGc3qheOcig)
 - package
   - [context](https://xjip3se76o.feishu.cn/wiki/wikcnE0AUuNDL2xC7PhFsEHoUJb)
-
-<!-- ### Python
-
-- todo: [装饰器]()
-
-新特性
-- [海象运算符 & 类型注解](https://xjip3se76o.feishu.cn/docs/doccnXgd4NaLIMMZLHF2S8IoHZf) -->
-
 
 ## 数据库
 
@@ -140,14 +118,11 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 ### Redis
 
 **缓存**
-- [关于缓存的一些重要概念](https://xjip3se76o.feishu.cn/docs/doccn5aY5nPi3ylnspqwPaooOR1)
-<!-- - [缓存数据一致性](docs/database/Redis/缓存更新策略.md) -->
 - [缓存数据一致性](https://xjip3se76o.feishu.cn/docx/doxcnRafKPJ1lYFtm5iiGDfWVRc)
 - [7大缓存经典问题](https://xjip3se76o.feishu.cn/docs/doccnnQ3isgYklfKQqSvxaFWmAh)
 
 --
 
-- [学习资料推荐](https://www.yuque.com/docs/share/2f391f98-d9b0-461d-83a5-5300aab8c633)，[学习资料推荐](https://xjip3se76o.feishu.cn/docs/doccnPKZHMNHqnychGUCrwS6fXc)
 - [Redis的单线程&多线程&IO模型](docs/database/Redis/单线程&多线程&IO模型.md)
 - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
 - [零碎知识点](docs/database/Redis/零碎知识点.md)
@@ -155,7 +130,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [Resp](https://xjip3se76o.feishu.cn/docs/doccncKmo98UNh0PKnCHvHVpBkf)
 
 **数据结构**
-<!-- - [五种基础数据结构](https://lrita.github.io/2019/03/13/the-internal-of-file-syscall/#fsyncfdatasync) -->
 - [五种基础数据结构](https://xjip3se76o.feishu.cn/docs/doccnYVIAWxerOZDyCH5aG36psd)
 - [Redis3种高级数据结构](https://xjip3se76o.feishu.cn/docs/doccnxRkiOQlg0NRdCP610tqSsf)
 - [底层数据结构](https://xjip3se76o.feishu.cn/docs/doccnIWqCK1fau5qvMTJS5rbYfO)
@@ -171,20 +145,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 高可用
 - [主从同步](docs/database/Redis/主从同步.md)
 - [Redis Sentinel](https://xjip3se76o.feishu.cn/docs/doccnmpYlkFkKX3kg4shaD4qVSg)
-- todo: [Redis Cluster](#)
+<!-- - todo: [Redis Cluster](#) -->
 
 实战
-- [分布式锁](docs/database/Redis/redis-lock.md)
 - [限流](docs/database/Redis/限流.md)
 - [Redis存储对象信息是用Hash还是String](https://www.upyun.com/tech/article/638/Redis%20%E5%AD%98%E5%82%A8%E5%AF%B9%E8%B1%A1%E4%BF%A1%E6%81%AF%E6%98%AF%E7%94%A8%20Hash%20%E8%BF%98%E6%98%AF%20String.html)
 - [Redis实现消息队列](https://xjip3se76o.feishu.cn/docs/doccnkIoycOLEXU9CXO2dXFW4Xf)
 - [使用Redis实现防止超卖的方法](docs/database/Redis/使用Redis实现防止超卖的方法.md)
-
-<!-- ### 其它缓存
-- todo: [pika](#) -->
-
-<!-- ### memcached -->
-<!-- - todo: [简介](#) -->
 
 ### Elasticsearch
 
@@ -201,13 +168,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 --
 - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
 
-
-<!-- ### MongoDB
-
-**基础知识：**
-
-todo
-- [高可用]() -->
 
 ## 消息队列
 
@@ -236,34 +196,11 @@ todo
 - [常用配置](https://xjip3se76o.feishu.cn/docs/doccn0BcJhDA0fFtkuAJ5GRhVke)
 - [基本操作](docs/MQ/kafka/基本操作.md)
 
-<!-- ## 计算机基础
 
-### 数据结构
-我的[github代码仓库](https://github.com/dayueba/DA)，用GO和JS实现常见的数据结构与算法，并有相应的笔记
-
-- [二叉树](docs/DA/tree.md)
-- [跳表](#)
-- [红黑树基础](#)
-- [布隆过滤器](docs/dataStructures-algorithms/dataStructures/RedisBloom.md)
-
-### 算法
-
-常见算法问题总结：
-- [常见排序算法](docs/DA/sort.md)
-- todo [常见的字符串算法题](#)
-- todo [常见的链表算法题](#)
 
 ### 网络
 
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
-
-<!-- ### 操作系统 -->
-
-<!-- ### 计算机组成原理
-
-### 概率论
-
-### 统计学 --> -->
 
 <!-- ## 设计模式
 - [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
@@ -273,7 +210,6 @@ todo
 工程能力
 
 - [常见的web攻击技术](docs/system_design/攻击技术.md)
-- [如何设计一个秒杀系统](docs/miaosha.md)
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
 - [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
@@ -287,17 +223,10 @@ todo
   - [配置中心](https://xjip3se76o.feishu.cn/docs/doccnp7KjzUeyUIrl9ARj2aKXC9)
   - [过载保护/限流/熔断](https://xjip3se76o.feishu.cn/wiki/wikcnRaVLjH67npX4rB9ZWrsZnh)
 - RPC
-  - [rpc简介](docs/rpc/intro.md)
   - [消息协议](docs/rpc/message.md)
-  - [protobuf与grpc](docs/rpc/protobuf&grpc.md)
 - 云原生
   - [Docker入门](docs/Docker/docker.md)
   - [etcd简介](https://xjip3se76o.feishu.cn/docs/doccnzyWADqitACeRpDPRxxE4Kc)
-
-<!-- ## 必会工具
-
-- git
-  - [Git入门以及常用操作](https://xjip3se76o.feishu.cn/docs/doccnyUVnidyYanZCKe8BXUIBxb) -->
 
 ## 计算机基础
 - [网络IO模型](https://xjip3se76o.feishu.cn/docx/doxcnp7jIh58xLsadhkNHKWpMOh)
@@ -307,18 +236,6 @@ todo
 1. [简历编写](docs/essential-content-for-interview/简历编写.md)
 2. [个人面试经验](docs/essential-content-for-interview/interview.md)
 3. [毛老师教你如何搞定面试](https://xjip3se76o.feishu.cn/docx/doxcndCat0MkUtJKUq5V5SQ6N6C)
-
-## 学习资源
-- [学习资料推荐](https://xjip3se76o.feishu.cn/mindnotes/bmncnh1mneKcbqrx45SuUDow0af)
-- [有趣的网站推荐](https://xjip3se76o.feishu.cn/docs/doccn0xk8QwCAKqNnqj63C6lk9c)
-- [互联网 Java 工程师进阶知识完全扫盲](https://doocs.gitee.io/advanced-java/)
-- [Psyduck](https://github.com/SmartKeyerror/Psyduck)
-
-<!-- ## 待学习
-- 操作系统
-- 计算机组成原理
-- 概率论
-- 统计学 -->
 
 ## 说明
 - 想法来源于此项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/) 。可以参考这篇文章搭建类似的网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
@@ -332,9 +249,12 @@ todo
   - 学习过程中可能有想补充的可以立马写到飞书文档里，如果直接写MD，还需要推送到仓库，再重新部署，麻烦
 - 可能的侵权问题
   - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
+- 最后：**[学习资源推荐](https://xjip3se76o.feishu.cn/mindnotes/bmncnh1mneKcbqrx45SuUDow0af)**
 
 ## changelog
-- 2022-9-10
+- 2022-12-13
+  - [近期的思考](https://xjip3se76o.feishu.cn/wiki/wikcnCU3fnx0Nlgrvw2TbT5Yuvd)
+- 2022-09-10
   - 增加go内存管理相关文章
   - 迁入并发相关文章
 - 2022-09-08
@@ -355,6 +275,3 @@ todo
 这是我看的一些和编程无关，但是对自身发展有用的书，并总结了相应的笔记，推荐大家看看：[地址](https://xjip3se76o.feishu.cn/docs/doccnctBNWVnDHBhSP1ShlQxDHc)
 
 Go+Node.js后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）
-
-## 放松一下
-推荐一些个人觉得好看的书，好玩的游戏以及各种有趣的东西

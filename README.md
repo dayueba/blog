@@ -46,6 +46,7 @@
 - [总结的一些学习方法以及一些好的习惯](https://xjip3se76o.feishu.cn/mindnotes/bmncniLbhid2PubMtdOEIwon2Jc)
 
 ## 读书笔记
+- [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
 
 ## 编程语言
 

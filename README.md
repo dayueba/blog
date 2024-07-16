@@ -47,6 +47,7 @@
 
 ## 读书笔记
 - [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
+- [人性的弱点]()
 
 ## 编程语言
 

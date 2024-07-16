@@ -1,25 +1,45 @@
 # blog
-这里是我的个人博客，与大多数程序员写博客的目的一样，总结自己所学的知识和记录一下学习过程中遇到的问题，提高自己的能力，卷起来！
+记录工作中遇到的问题，以及学习过程中的思考。
 
-## 目录
-- [博客说明(重要！！！)](#说明)
-- [changelog](#changelog)
-- [学习方法](#学习方法)
-- [编程语言](#编程语言)
-  - [JavaScript & Node](#JavaScript)
-  - [Go](#Go)
-- [数据库](#数据库)
-  - [MySQL](#MySQL)
-  - [Redis](#Redis)
-  - [Elasticsearch](#Elasticsearch)
-- [消息队列](#消息队列)
-  - [RabbitMQ](#RabbitMQ)
-  - [Kafka](#Kafka)
-- [系统设计](#系统设计)
-- [微服务](#微服务)
-- [计算机基础](#计算机基础)
-- [面试指南](#面试指南)
-- [关于我](#关于我)
+[//]: # (## 目录)
+
+[//]: # (- [博客说明&#40;重要！！！&#41;]&#40;#说明&#41;)
+
+[//]: # (- [changelog]&#40;#changelog&#41;)
+
+[//]: # (- [学习方法]&#40;#学习方法&#41;)
+
+[//]: # (- [编程语言]&#40;#编程语言&#41;)
+
+[//]: # (  - [JavaScript & Node]&#40;#JavaScript&#41;)
+
+[//]: # (  - [Go]&#40;#Go&#41;)
+
+[//]: # (- [数据库]&#40;#数据库&#41;)
+
+[//]: # (  - [MySQL]&#40;#MySQL&#41;)
+
+[//]: # (  - [Redis]&#40;#Redis&#41;)
+
+[//]: # (  - [Elasticsearch]&#40;#Elasticsearch&#41;)
+
+[//]: # (- [消息队列]&#40;#消息队列&#41;)
+
+[//]: # (  - [RabbitMQ]&#40;#RabbitMQ&#41;)
+
+[//]: # (  - [Kafka]&#40;#Kafka&#41;)
+
+[//]: # (- [系统设计]&#40;#系统设计&#41;)
+
+[//]: # (- [微服务]&#40;#微服务&#41;)
+
+[//]: # (- [计算机基础]&#40;#计算机基础&#41;)
+
+[//]: # (- [面试指南]&#40;#面试指南&#41;)
+
+[//]: # (- [关于我]&#40;#关于我&#41;)
+
+[为什么要写博客](https://xjip3se76o.feishu.cn/docx/WYjqdSQ1Vo1N0MxzLURcFq5Hnxh?from=from_copylink)
 
 ## 学习方法
 
@@ -202,10 +222,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
 
-<!-- ## 设计模式
-- [20条改善代码质量的编码规范.md](docs/design-patterns/20条改善代码质量的编码规范.md)
-- [函数式编程](docs/FunctionalProgramming/FunctionalProgramming.md) -->
-
 ## 系统设计
 工程能力
 
@@ -213,7 +229,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
 - [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
-<!-- - [重构](https://xjip3se76o.feishu.cn/docx/doxcnISkL1wbh4dtAOue2Wfgs6b) -->
 
 ## 微服务
 
@@ -238,40 +253,13 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 3. [毛老师教你如何搞定面试](https://xjip3se76o.feishu.cn/docx/doxcndCat0MkUtJKUq5V5SQ6N6C)
 
 ## 说明
-- 想法来源于此项目：[JavaGuide](https://snailclimb.gitee.io/javaguide/#/) 。可以参考这篇文章搭建类似的网站：[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
-- 为什么没有这样像其他大佬一样，买服务器，买域名，单独部署呢？
-  - 目前这样最大的好处就是免费！刚开始我们写博客主要目的只是为了总结一下自己学到的知识，大概率是没什么人看的，所以前期花费金钱去买服务器显得没有那么划算。
-- 为什么大部分文章都是用飞书文档写的？
-  - 虽然 docsify 框架渲染的文章更好看，比飞书文档好看多了，虽然飞书文档功能很多，但是是真的丑。
-  - 但是使用飞书文档的一个重要好处就是可以评论文档，写博客最好还是支持一下评论，不然万一别人有问题，人家需要加你微信才能问你，除非你文章写的特别好，不然大部分人是不会加你的。没有评论区，写博客会有点自嗨的感觉。
-  - 类似的还有语雀，但是由于工作使用的办公软件是飞书，所以就用飞书文档了
-  - 直接md文档还有一个问题，部署的时候容易审核过不去（用github部署应该没问题，但是国内访问慢），重点是只告诉你哪个文档有问题，没有更详细的信息，修改起来很麻烦
-  - 学习过程中可能有想补充的可以立马写到飞书文档里，如果直接写MD，还需要推送到仓库，再重新部署，麻烦
-- 可能的侵权问题
-  - 总结的博客里，会放上一些自己参考的资料，如果侵权了，可以加我微信（p320jun），联系后删除
-- 最后：**[学习资源推荐](https://xjip3se76o.feishu.cn/mindnotes/bmncnh1mneKcbqrx45SuUDow0af)**
 
 ## changelog
 - 2022-12-13
   - [近期的思考](https://xjip3se76o.feishu.cn/wiki/wikcnCU3fnx0Nlgrvw2TbT5Yuvd)
-- 2022-09-10
-  - 增加go内存管理相关文章
-  - 迁入并发相关文章
-- 2022-09-08
-  - 增加go相关文章
-- 2022-09-07
-  - 增加几篇飞书文档中的文章
-- 2022-09-06
-  - 修改主页描述，删除大量低质量文章
-- 2022-08-23
-  - 增加go数据结构map文章
-- 2022-08-22
-  - 删除一些认为质量较低的博客
-  - 修改主页，修改一些描述，删除一些失效连接
-  - 增加go_数据结构 文章
+
 
 ## 关于我
 
 这是我看的一些和编程无关，但是对自身发展有用的书，并总结了相应的笔记，推荐大家看看：[地址](https://xjip3se76o.feishu.cn/docs/doccnctBNWVnDHBhSP1ShlQxDHc)
 
-Go+Node.js后端开发 对存储和架构比较感兴趣 联系方式：微信号（p320jun）

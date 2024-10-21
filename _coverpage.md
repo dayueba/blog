@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">大月巴的blog</h1>
 
-[Gitee](https://gitee.com/dayueba/blog)
+[GitHub](https://github.com/dayueba/blog)
 [开始阅读](#blog)
 
 

@@ -49,6 +49,10 @@
 - [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
 - [人性的弱点]()
 
+## DDD
+
+- [基础概念](https://xjip3se76o.feishu.cn/wiki/ZtygwT77Xi1eWZk7em3c5Qs8nNg?from=from_copylink)
+
 ## 编程语言
 
 ### JavaScript

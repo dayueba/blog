@@ -49,24 +49,41 @@
 - [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
 - [人性的弱点]()
 
+## 系统设计
+
+<!-- - [常见的web攻击技术](docs/system_design/攻击技术.md) -->
+- [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
+- [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
+- [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
+- [唯一ID生成器](https://xjip3se76o.feishu.cn/docx/EUFndGSIZoUD6xxp3HHcwoYWnbh?from=from_copylink)
+- [用户登录服务]()
+- [用户关系服务](https://xjip3se76o.feishu.cn/docx/I4judbNBDorL0wxQW6lc25LgnFf?from=from_copylink)
+- [排行榜服务](https://xjip3se76o.feishu.cn/docx/PT09dtUFHofPBaxTW0ncEtEqnTb?from=from_copylink)
+- [评论系统设计](https://xjip3se76o.feishu.cn/docx/KJmrdgHp5omwv5xMkrgcRBncnug?from=from_copylink)
+- [IM 服务](https://xjip3se76o.feishu.cn/docx/QzCsdhQEEorckcxbN0qca3Usn1b?from=from_copylink)
+
 ## DDD
 
 - [基础概念](https://xjip3se76o.feishu.cn/wiki/ZtygwT77Xi1eWZk7em3c5Qs8nNg?from=from_copylink)
+
+## 业务记录
+- [集成极光推送](https://xjip3se76o.feishu.cn/docx/MTeRdHys5oeVUsxaqUmct2ZDnef?from=from_copylink)
+- [web安全 - 后端篇](https://xjip3se76o.feishu.cn/docx/KDibdXFHgofx30xYrDTcnlaSnTf?from=from_copylink)
 
 ## 编程语言
 
 ### JavaScript
 - js
-  - [数据类型](docs/js/数据类型.md)
-  - [深拷贝与浅拷贝](docs/js/深拷贝与浅拷贝.md)
+  <!-- - [数据类型](docs/js/数据类型.md) -->
+  <!-- - [深拷贝与浅拷贝](docs/js/深拷贝与浅拷贝.md) -->
   - [闭包](docs/js/闭包.md)
   - [JS 内存管理机制](docs/js/JS内存管理机制.md)
   - [promise详解](docs/js/promise.md)
-- ts: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
+<!-- - ts: TypeScript不是一门新的编程语言，而是JavaScript的超集。提供了强大的类型系统，可以解决一大堆问题。TypeScript 是一门中间语言，最终它还需要转译为纯 JavaScript，再交给各种终端解释、执行。
   - [TypeScript](docs/js/typescript.md)
-  - [类型](docs/js/ts/类型.md)
+  - [类型](docs/js/ts/类型.md) -->
 - Node.js
-  - [Nodejs入门](docs/js/nodejs/node.md)
+  <!-- - [Nodejs入门](docs/js/nodejs/node.md) -->
   - [Node事件循环机制](docs/js/事件循环机制.md)
 
 ### Go
@@ -118,10 +135,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - 索引：[索引实战](docs/database/MySQL/索引实战.md)，[索引总结2](https://xjip3se76o.feishu.cn/docs/doccnmlh4wJR7RlNN8QsmIk8IVr)
 - 锁: [全局锁&表锁&行锁](docs/database/MySQL/lock.md), [死锁](docs/database/MySQL/dead-lock.md), [意向锁、排它锁以及共享锁]()
 
-**日志文件**
+<!-- **日志文件**
 - [binlog](https://xjip3se76o.feishu.cn/docs/doccnoG4mp3cGrEDKHSGbI7e3dg)
 - [redo log](https://xjip3se76o.feishu.cn/docs/doccn4C4wL63WUsSdnPSxYik3We)
-- [undo log](https://xjip3se76o.feishu.cn/docs/doccnUL36FWaKgni0yUE5e8jJxf)
+- [undo log](https://xjip3se76o.feishu.cn/docs/doccnUL36FWaKgni0yUE5e8jJxf) -->
 
 **InnoDB 数据存储**
 - [行格式](https://xjip3se76o.feishu.cn/docs/doccn8V3i3yekKBJlao9KiKJKye)
@@ -230,13 +247,6 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 - [在浏览器输入了一个 URL 后发生了什么](docs/network/a-request.md)
 
-## 系统设计
-工程能力
-
-- [常见的web攻击技术](docs/system_design/攻击技术.md)
-- [电商存储中的高频问题解决方案](docs/电商存储中的24个高频问题解决方案.md)
-- [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
-- [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
 
 ## 微服务
 

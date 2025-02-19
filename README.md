@@ -56,7 +56,7 @@
 - [实现一个短网址系统](https://xjip3se76o.feishu.cn/docs/doccnGJcry3GVgHIHRtZoHw3AdO)
 - [Timeline Feed系统设计](https://xjip3se76o.feishu.cn/wiki/wikcno6bBPVTm3xDeoWp5z6FLYg)
 - [唯一ID生成器](https://xjip3se76o.feishu.cn/docx/EUFndGSIZoUD6xxp3HHcwoYWnbh?from=from_copylink)
-- [用户登录服务]()
+- [用户登录服务](https://xjip3se76o.feishu.cn/docx/W5Rad0WkQoYUX0xIOTUcMVRtnSb?from=from_copylink)
 - [用户关系服务](https://xjip3se76o.feishu.cn/docx/I4judbNBDorL0wxQW6lc25LgnFf?from=from_copylink)
 - [排行榜服务](https://xjip3se76o.feishu.cn/docx/PT09dtUFHofPBaxTW0ncEtEqnTb?from=from_copylink)
 - [评论系统设计](https://xjip3se76o.feishu.cn/docx/KJmrdgHp5omwv5xMkrgcRBncnug?from=from_copylink)
@@ -172,7 +172,7 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 - [缓存过期策略/内存淘汰机制](https://xjip3se76o.feishu.cn/docs/doccnDzvoXSW5m2NaB7TrIzBAjl)
 - [零碎知识点](docs/database/Redis/零碎知识点.md)
 - [Redis单线程与多线程](https://xjip3se76o.feishu.cn/docs/doccn8OCWaPKKv6Wx2xJHxriXtd)
-- [Resp](https://xjip3se76o.feishu.cn/docs/doccncKmo98UNh0PKnCHvHVpBkf)
+<!-- - [Resp](https://xjip3se76o.feishu.cn/docs/doccncKmo98UNh0PKnCHvHVpBkf) -->
 
 **数据结构**
 - [五种基础数据结构](https://xjip3se76o.feishu.cn/docs/doccnYVIAWxerOZDyCH5aG36psd)
@@ -181,8 +181,8 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 **持久化**
 
-记住：持久化的目的是为了重启时快速恢复数据
-- [持久化简介](https://xjip3se76o.feishu.cn/docs/doccnMeJBkpmpabnlyModXbJHcg)
+<!-- 记住：持久化的目的是为了重启时快速恢复数据 -->
+<!-- - [持久化简介](https://xjip3se76o.feishu.cn/docs/doccnMeJBkpmpabnlyModXbJHcg) -->
 - [AOF](https://xjip3se76o.feishu.cn/docs/doccnW6NiitQBCw2bVahUo48wnb)，[AOF重写](https://xjip3se76o.feishu.cn/docs/doccn1yGrTMNSgA5FDqqBkt4iih)
 - [RDB](https://xjip3se76o.feishu.cn/docs/doccndeuPUjLL44q0xr56i9yGXb)
 - [混合持久化](https://xjip3se76o.feishu.cn/docs/doccnY9oQTBEJHy07bZYIusAJIf)
@@ -200,26 +200,26 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Elasticsearch
 
-- [es入门](docs/es/es简介.md)
-- [安装与配置](docs/es/es-install-config.md)
-- [索引基本操作](docs/es/索引基本操作.md)
-- [文档基本操作](https://xjip3se76o.feishu.cn/docs/doccn9LvZ8QYW45mF76GYrFPAwb)
-- [mapping](docs/es/mapping.md)
+<!-- - [es入门](docs/es/es简介.md) -->
+<!-- - [安装与配置](docs/es/es-install-config.md) -->
+<!-- - [索引基本操作](docs/es/索引基本操作.md) -->
+<!-- - [文档基本操作](https://xjip3se76o.feishu.cn/docs/doccn9LvZ8QYW45mF76GYrFPAwb) -->
+<!-- - [mapping](docs/es/mapping.md) -->
 
 **搜索**
 - [全文检索](https://xjip3se76o.feishu.cn/docs/doccnLWrq8ZCaE2Hous06b5wAuc)
 - [term精确搜索](https://xjip3se76o.feishu.cn/docs/doccnrIWBqaG1y1HpLNo9NDLX2Y)
 
---
-- [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh)
+<!-- -- -->
+<!-- - [我的es学习笔记](https://xjip3se76o.feishu.cn/mindnotes/bmncnIGWaqUckdRIIlKvfh4ezBh) -->
 
 
 ## 消息队列
 
 消息队列在分布式系统中主要是为了解耦和削峰（也可以拿来与其它系统通信以及分布式事务）。相关阅读： **[消息队列总结](https://xjip3se76o.feishu.cn/docs/doccnBD85O83ONNtjOLkHinML5g)** 。
 
-- [消息队列入门](docs/MQ/mq-intro.md)
-- [主流消息中间件及选型](docs/MQ/mq-select.md)
+<!-- - [消息队列入门](docs/MQ/mq-intro.md) -->
+<!-- - [主流消息中间件及选型](docs/MQ/mq-select.md) -->
 - [消息队列常见问题总结](https://xjip3se76o.feishu.cn/docs/doccnSm6eNc0XqaIuZBveCMGqWg)
 
 
@@ -236,10 +236,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 
 ### Kafka
 
-- [Kafka入门](docs/MQ/kafka-入门.md)
-- [基本概念](docs/MQ/kafka/基本概念.md)
-- [常用配置](https://xjip3se76o.feishu.cn/docs/doccn0BcJhDA0fFtkuAJ5GRhVke)
-- [基本操作](docs/MQ/kafka/基本操作.md)
+<!-- - [Kafka入门](docs/MQ/kafka-入门.md) -->
+<!-- - [基本概念](docs/MQ/kafka/基本概念.md) -->
+<!-- - [常用配置](https://xjip3se76o.feishu.cn/docs/doccn0BcJhDA0fFtkuAJ5GRhVke) -->
+<!-- - [基本操作](docs/MQ/kafka/基本操作.md) -->
 
 
 

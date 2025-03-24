@@ -45,9 +45,7 @@
 
 - [总结的一些学习方法以及一些好的习惯](https://xjip3se76o.feishu.cn/mindnotes/bmncniLbhid2PubMtdOEIwon2Jc)
 
-## 读书笔记
-- [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
-- [人性的弱点]()
+
 
 ## 系统设计
 
@@ -61,6 +59,10 @@
 - [排行榜服务](https://xjip3se76o.feishu.cn/docx/PT09dtUFHofPBaxTW0ncEtEqnTb?from=from_copylink)
 - [评论系统设计](https://xjip3se76o.feishu.cn/docx/KJmrdgHp5omwv5xMkrgcRBncnug?from=from_copylink)
 - [IM 服务](https://xjip3se76o.feishu.cn/docx/QzCsdhQEEorckcxbN0qca3Usn1b?from=from_copylink)
+- [通用计数系统](https://xjip3se76o.feishu.cn/docx/LppSdTm56oh6SYxe3azctoEQnXf?from=from_copylink)
+- [海量推送系统](https://xjip3se76o.feishu.cn/docx/T0IHdBq6soz94qxGicWct6cVnKx?from=from_copylink)
+- [内容发布系统](https://xjip3se76o.feishu.cn/docx/IBS5dDmLeoOleNx4IracBoKzn5e?from=from_copylink)
+- [秒杀系统设计](https://xjip3se76o.feishu.cn/docx/Gh5IdKrL5oLomDxVlGOcP775n0g?from=from_copylink)
 
 ## DDD
 
@@ -68,7 +70,10 @@
 
 ## 业务记录
 - [集成极光推送](https://xjip3se76o.feishu.cn/docx/MTeRdHys5oeVUsxaqUmct2ZDnef?from=from_copylink)
+- [定时任务](https://xjip3se76o.feishu.cn/docx/FLxYdrHlLoTjOhxrVBccHQspnwg?from=from_copylink)
 - [web安全 - 后端篇](https://xjip3se76o.feishu.cn/docx/KDibdXFHgofx30xYrDTcnlaSnTf?from=from_copylink)
+- [online ddl](https://xjip3se76o.feishu.cn/docx/GrGbdTdE8op7JcxHxN3c2dBMnVh?from=from_copylink)
+- [权限](https://xjip3se76o.feishu.cn/docx/FLp5d2XHCowgPPxzJ8LcvT7dnNb?from=from_copylink)
 
 ## 编程语言
 
@@ -269,6 +274,10 @@ mysql的提高包括：SQL 语句优化、索引原理、MySQL 锁、事务、My
 1. [简历编写](docs/essential-content-for-interview/简历编写.md)
 2. [个人面试经验](docs/essential-content-for-interview/interview.md)
 3. [毛老师教你如何搞定面试](https://xjip3se76o.feishu.cn/docx/doxcndCat0MkUtJKUq5V5SQ6N6C)
+
+## 读书笔记
+- [软技能：代码之外的生存指南](https://xjip3se76o.feishu.cn/wiki/Jt5PwMa5ni679SkMYnLcQEpqnBe?from=from_copylink)
+<!-- - [人性的弱点](https://xjip3se76o.feishu.cn/wiki/I5uHwvXa0ion0JkeUvVcz5FhnOh?from=from_copylink) -->
 
 ## 说明
 

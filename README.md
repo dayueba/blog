@@ -74,6 +74,17 @@
 - [web安全 - 后端篇](https://xjip3se76o.feishu.cn/docx/KDibdXFHgofx30xYrDTcnlaSnTf?from=from_copylink)
 - [online ddl](https://xjip3se76o.feishu.cn/docx/GrGbdTdE8op7JcxHxN3c2dBMnVh?from=from_copylink)
 - [权限](https://xjip3se76o.feishu.cn/docx/FLp5d2XHCowgPPxzJ8LcvT7dnNb?from=from_copylink)
+- [有限状态机](https://xjip3se76o.feishu.cn/docx/YnPMdsSJxoRefhxuYY2chHb0nEd?from=from_copylink)
+- [慢SQL治理]()
+
+## 日常问题排查
+- [一次加了 HttpOnly 导致的事故](https://xjip3se76o.feishu.cn/wiki/XkeKwTTCwi0v6Ck5XnncCJdBnVe?from=from_copylink)
+- [windows和mac不同系统下打包的软件在linux下的权限不一样](https://xjip3se76o.feishu.cn/wiki/BWHAwWnsGivZd7kiL9OcGLoinWh?from=from_copylink)
+
+
+## AI
+- [上下文工程](https://xjip3se76o.feishu.cn/wiki/A4xPwFmLDib1XGk6MJQc5xDXnGg?from=from_copylink)
+
 
 ## 编程语言
 
@@ -90,6 +101,7 @@
 - Node.js
   <!-- - [Nodejs入门](docs/js/nodejs/node.md) -->
   - [Node事件循环机制](docs/js/事件循环机制.md)
+  - [Node 中那些好用的新功能](https://xjip3se76o.feishu.cn/wiki/BP5awWL0UiWqxHk8K5pckUytnCg?from=from_copylink)
 
 ### Go
 
